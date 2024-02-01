@@ -65,3 +65,7 @@
   font-size: rem(22px);
   border-radius: 10px;
 }
+
+.menuopener {
+  background-color: transparent;
+}

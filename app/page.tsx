@@ -1,4 +1,4 @@
-import { Container, Title, Text, Button } from "@mantine/core";
+import { Container, Title, Text, Button, Burger } from "@mantine/core";
 import classes from "./HeroImageRight.module.css";
 
 export default function Page() {
@@ -7,6 +7,7 @@ export default function Page() {
       <Container size="lg">
         <div className={classes.inner}>
           <div className={classes.content}>
+            <Burger color="white" size={"lg"} mb={10} />
             <Title className={classes.title}>
               Building Bridges With
               <Text
