@@ -11,62 +11,76 @@ import {
 import {
   IconBrandTwitter,
   IconBrandYoutube,
-  IconBrandInstagram,
+  IconBrandFacebook,
+  IconBrandLinkedin,
 } from "@tabler/icons-react";
-import { ContactIconsList } from "./ContactIcons";
 import classes from "./ContactUs.module.css";
+import Link from "next/link";
 
-const social = [IconBrandTwitter, IconBrandYoutube, IconBrandInstagram];
+const social = [
+  IconBrandFacebook,
+  IconBrandTwitter,
+  IconBrandYoutube,
+  IconBrandLinkedin,
+];
+
+const socialLinks = [
+  "https://www.facebook.com/BBRwanda/",
+  "https://twitter.com/BBRwanda",
+  "https://www.instagram.com/bbrwanda/",
+  "https://www.linkedin.com/in/lama-mugabo/",
+];
 
 export function ContactUs() {
   const icons = social.map((Icon, index) => (
-    <ActionIcon
-      key={index}
-      size={28}
-      className={classes.social}
-      variant="transparent"
-    >
-      <Icon size="1.4rem" stroke={1.5} />
-    </ActionIcon>
+    <Link key={index} href={socialLinks[index]}>
+      <ActionIcon size={28} className={classes.social} variant="transparent">
+        <Icon size="1.4rem" stroke={1.5} />
+      </ActionIcon>
+    </Link>
   ));
 
   return (
     <div className={classes.wrapper}>
       <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={50}>
         <div>
-          <Title className={classes.title}>Contact us</Title>
+          <Title className={classes.title}>Connect With Us</Title>
           <Text className={classes.description} mt="sm" mb={30}>
-            Leave your email and we will get back to you within 24 hours
+            Have a question? Let us know!
           </Text>
-
-          <ContactIconsList />
 
           <Group mt="xl">{icons}</Group>
         </div>
         <div className={classes.form}>
           <TextInput
             label="Email"
-            placeholder="your@email.com"
+            placeholder="lmugabo75@email.com"
             required
             classNames={{ input: classes.input, label: classes.inputLabel }}
           />
           <TextInput
             label="Name"
-            placeholder="John Doe"
+            placeholder="Lama Mugabo"
             mt="md"
             classNames={{ input: classes.input, label: classes.inputLabel }}
           />
           <Textarea
             required
             label="Your message"
-            placeholder="I want to order your goods"
+            placeholder="I'd like to learn more about Rwanda, can we perhaps talk about..."
             minRows={4}
             mt="md"
             classNames={{ input: classes.input, label: classes.inputLabel }}
           />
 
           <Group justify="flex-end" mt="md">
-            <Button className={classes.control}>Send message</Button>
+            <Button
+              variant="gradient"
+              gradient={{ from: "red", to: "yellow" }}
+              className={classes.control}
+            >
+              Send message
+            </Button>
           </Group>
         </div>
       </SimpleGrid>
