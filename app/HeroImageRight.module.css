@@ -8,7 +8,7 @@
       rgba(0, 0, 0, 0.4) 65%
     ),
     url("https://static.wixstatic.com/media/ec5c5c_d9eea7b9ed29429296524b81d4b7de02~mv2.png/v1/fill/w_1653,h_1192,al_c,q_95,enc_auto/ec5c5c_d9eea7b9ed29429296524b81d4b7de02~mv2.png");
-  padding-top: 15vh;
+  padding-top: 10vh;
   height: 100vh;
 }
 
@@ -54,8 +54,9 @@
 
 .description {
   color: var(--mantine-color-white);
-  opacity: 0.75;
-  max-width: rem(500px);
+  font-size: rem(17px);
+  opacity: 0.9;
+  max-width: rem(400px);
 }
 
 .control {

@@ -1,13 +1,24 @@
+"use client";
+
 import { Container, Title, Text, Button, Burger } from "@mantine/core";
 import classes from "./HeroImageRight.module.css";
+import { useDisclosure } from "@mantine/hooks";
 
 export default function Page() {
+  const [opened, { toggle }] = useDisclosure();
+
   return (
     <div className={classes.root}>
       <Container size="lg">
         <div className={classes.inner}>
           <div className={classes.content}>
-            <Burger color="white" size={"lg"} mb={10} />
+            <Burger
+              opened={opened}
+              onClick={toggle}
+              color="white"
+              size={"lg"}
+              mb={10}
+            />
             <Title className={classes.title}>
               Building Bridges With
               <Text
@@ -22,9 +33,8 @@ export default function Page() {
             </Title>
 
             <Text className={classes.description} mt={30}>
-              Build fully functional accessible web applications with ease –
-              Mantine includes more than 100 customizable components and hooks
-              to cover you in any situation
+              A non-profit organization designed to foster Rwanda's sustainable
+              development initiatives through practical learning and action.
             </Text>
 
             <Button
