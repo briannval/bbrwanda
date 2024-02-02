@@ -42,7 +42,7 @@ export default function Page() {
               </Title>
 
               <Text className={classes.description} mt={30}>
-                A non-profit organization designed to foster Rwanda's
+                A non-profit organization designed to foster Rwanda&apos;s
                 sustainable development initiatives through practical learning
                 and action.
               </Text>
