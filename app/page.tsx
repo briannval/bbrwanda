@@ -7,7 +7,7 @@ import {
   Button,
   Burger,
   Drawer,
-  Divider,
+  Box,
 } from "@mantine/core";
 import classes from "./HeroImageRight.module.css";
 import { useDisclosure } from "@mantine/hooks";
@@ -17,6 +17,7 @@ import { FeaturesCards } from "../components/FeatureCards";
 import Slider from "../components/keen/Slider";
 import { FaqWithBg } from "../components/FaqWithBg";
 import { VissionMission } from "../components/VissionMission";
+import Image from "next/image";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -70,6 +71,12 @@ export default function Page() {
         </Container>
       </div>
       <VissionMission />
+      <Box className={classes.imagebox}>
+        <Image src="/about.jpeg" alt="About Us" width={450} height={600} />
+        <Text className={classes.caption}>
+          Lama (BBRwanda&apos;s founder), and Dancila
+        </Text>
+      </Box>
       <FaqWithBg />
       <FeaturesCards />
       <Slider />

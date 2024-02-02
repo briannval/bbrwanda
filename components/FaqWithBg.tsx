@@ -1,58 +1,120 @@
-import { Title, Container, Accordion } from "@mantine/core";
+import {
+  Button,
+  Box,
+  Title,
+  Container,
+  Accordion,
+  Text,
+  Badge,
+  Image,
+} from "@mantine/core";
 import classes from "./FaqWithBg.module.css";
-
-const placeholder =
-  "It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can’t multiply, and it dies.It has no eyeballs, so it can’t see. It checks its surroundings via the ultrasonic waves it emits from its mouth.";
 
 export function FaqWithBg() {
   return (
     <div className={classes.wrapper}>
       <Container size="sm">
-        <Title ta="center" className={classes.title}>
-          What We Do
-        </Title>
+        <Box>
+          <Title ta="center" className={classes.title}>
+            About Us
+          </Title>
 
-        <Accordion
-          defaultValue="reset-password"
-          variant="separated"
-          styles={{
-            label: { color: "var(--mantine-color-black)" },
-            item: { border: 0 },
-          }}
-        >
-          <Accordion.Item className={classes.item} value="reset-password">
-            <Accordion.Control>How can I reset my password?</Accordion.Control>
-            <Accordion.Panel>{placeholder}</Accordion.Panel>
-          </Accordion.Item>
+          <Accordion
+            defaultValue="reset-password"
+            variant="separated"
+            styles={{
+              label: { color: "var(--mantine-color-black)" },
+              item: { border: 0 },
+            }}
+          >
+            <Accordion.Item className={classes.item} value="third">
+              <Accordion.Control>
+                <Box className={classes.badgebox}>
+                  <Text className={classes.question}>
+                    Our reflection tour in 2024
+                  </Text>
+                  <Badge
+                    ml={12}
+                    size="lg"
+                    variant="gradient"
+                    gradient={{ from: "red", to: "yellow", deg: 90 }}
+                  >
+                    Important !
+                  </Badge>
+                </Box>
+              </Accordion.Control>
+              <Accordion.Panel>
+                Building Bridges for Rwanda (BBR) is planning to embark on a
+                unique, collaborative, and transnational Sustainable Development
+                Reflection Tour in Rwanda in order to showcase and highlight 4
+                innovative and transformational projects that will lead to
+                greatly improving the lives, environment, and communities in
+                rural Rwanda.
+                <br></br>
+                Find out more about the tour{" "}
+                <span className={classes.learnmorebutton}>here</span>
+              </Accordion.Panel>
+            </Accordion.Item>
+            <Accordion.Item className={classes.item} value="first">
+              <Accordion.Control>
+                <Text className={classes.question}>What do we do?</Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                We foster Rwanda&apos;s sustainable development initiatives
+                through practical learning and action.
+              </Accordion.Panel>
+            </Accordion.Item>
 
-          <Accordion.Item className={classes.item} value="another-account">
-            <Accordion.Control>
-              Can I create more that one account?
-            </Accordion.Control>
-            <Accordion.Panel>{placeholder}</Accordion.Panel>
-          </Accordion.Item>
+            <Accordion.Item className={classes.item} value="second">
+              <Accordion.Control>
+                <Text className={classes.question}>
+                  What we gain from our projects
+                </Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                Nothing. We are a non-profit organization.
+              </Accordion.Panel>
+            </Accordion.Item>
 
-          <Accordion.Item className={classes.item} value="newsletter">
-            <Accordion.Control>
-              How can I subscribe to monthly newsletter?
-            </Accordion.Control>
-            <Accordion.Panel>{placeholder}</Accordion.Panel>
-          </Accordion.Item>
+            <Accordion.Item className={classes.item} value="fourth">
+              <Accordion.Control>
+                <Text className={classes.question}>
+                  How we support learning
+                </Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                We facilitate learning exchanges between change agents from the
+                global North and local change agents.
+              </Accordion.Panel>
+            </Accordion.Item>
 
-          <Accordion.Item className={classes.item} value="credit-card">
-            <Accordion.Control>
-              Do you store credit card information securely?
-            </Accordion.Control>
-            <Accordion.Panel>{placeholder}</Accordion.Panel>
-          </Accordion.Item>
+            <Accordion.Item className={classes.item} value="fifth">
+              <Accordion.Control>
+                <Text className={classes.question}>
+                  How international visitors can help
+                </Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                We create a platform where international visitors come to Rwanda
+                and work side by side with their Rwandan counterparts to foster
+                sustainable development.
+              </Accordion.Panel>
+            </Accordion.Item>
 
-          <Accordion.Item className={classes.item} value="payment">
-            <Accordion.Control>
-              What payment systems to you work with?
-            </Accordion.Control>
-            <Accordion.Panel>{placeholder}</Accordion.Panel>
-          </Accordion.Item>
-        </Accordion>
+            <Accordion.Item className={classes.item} value="sixth">
+              <Accordion.Control>
+                <Text className={classes.question}>
+                  Our role in North America
+                </Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                In North America, we organize public education events that raise
+                awareness about Rwanda’s development journey and provide a space
+                for sharing stories and answering questions.
+              </Accordion.Panel>
+            </Accordion.Item>
+          </Accordion>
+        </Box>
       </Container>
     </div>
   );

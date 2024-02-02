@@ -33,13 +33,13 @@ const mockdata = [
   {
     title: "Support to Girubumuntu Project",
     image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+      "https://www.travelandleisure.com/thmb/eDZBsNz7hzqvVNTsthL7TcAP-k4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-virunga-mountains-rwanda-ALISTRWANDA0123-049a3b1c218e4358a90015bd09fff7be.jpg",
     lead: "Led by Jeanne Ingabire",
   },
   {
     title: "Support to Covaga Weavers Cooperative",
     image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+      " https://blog.butterfield.com/wp-content/uploads/2022/04/7-Facts-That-Will-Change-What-You-Think-About-Rwanda.png",
     lead: "Lead by Steven Kega",
   },
 ];

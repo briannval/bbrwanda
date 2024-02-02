@@ -69,3 +69,18 @@
     width: 100%;
   }
 }
+
+.question {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.badgebox {
+  display: flex;
+  align-items: center;
+}
+
+.learnmorebutton {
+  text-decoration: underline;
+  font-weight: 600;
+}
