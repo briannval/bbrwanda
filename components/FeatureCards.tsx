@@ -5,70 +5,90 @@ import {
   Card,
   SimpleGrid,
   Container,
-  rem,
   useMantineTheme,
+  Box,
+  AspectRatio,
+  Image,
 } from "@mantine/core";
-import { IconCoin, IconStethoscope, IconNotebook } from "@tabler/icons-react";
 import classes from "./FeatureCards.module.css";
 
 const mockdata = [
   {
-    title: "Economic Opportunity",
-    description:
-      "Through our training program, we're sowing the seeds of economic opportunity.",
-    icon: IconCoin,
+    title: "Realization of the Covaga Innovation Center, Gashora",
+    image:
+      "https://enclosuretakerefuge.files.wordpress.com/2014/04/img_1062.jpg?w=739&h=540",
+    lead: "Led by Steven Kega",
   },
   {
-    title: "Nutrition and Wellness",
-    description:
-      "We believe that good nutrition is the cornerstone of a healthy life.",
-    icon: IconStethoscope,
+    title: "Quinoa Demonstration Garden at the CIC, Gashora",
+    image: "https://farm4.staticflickr.com/3868/14742838447_823f42bcae.jpg",
+    lead: "Led by Cedric Habiyaremye",
   },
   {
-    title: "Education",
-    description: "We're committed to providing learning opportunities for all.",
-    icon: IconNotebook,
+    title: "Sustainable Development Reflection Tour, to Rwanda",
+    image:
+      "https://www.volcanoesparkrwanda.org/wp-content/uploads/2023/06/rwanda-lead-2019.jpg",
+    lead: "Led by Lama Mugabo",
+  },
+  {
+    title: "Support to Girubumuntu Project",
+    image:
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+    lead: "Led by Jeanne Ingabire",
+  },
+  {
+    title: "Support to Covaga Weavers Cooperative",
+    image:
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80",
+    lead: "Lead by Steven Kega",
   },
 ];
 
 export function FeaturesCards() {
   const theme = useMantineTheme();
-  const features = mockdata.map((feature) => (
+  const cards = mockdata.map((article) => (
     <Card
-      key={feature.title}
-      shadow="md"
+      key={article.title}
+      p="md"
       radius="md"
+      component="a"
+      href="#"
       className={classes.card}
-      padding="xl"
     >
-      <feature.icon
-        style={{ width: rem(50), height: rem(50) }}
-        stroke={2}
-        color={theme.colors.yellow[6]}
-      />
-      <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
-        {feature.title}
+      <AspectRatio ratio={1920 / 1080}>
+        <Image src={article.image} alt="Card Image" />
+      </AspectRatio>
+      <Text c="dimmed" size="xs" tt="uppercase" fw={700} mt="md">
+        {article.lead}
       </Text>
-      <Text fz="sm" c="dimmed" mt="sm">
-        {feature.description}
+      <Text className={classes.title} mt={5}>
+        {article.title}
       </Text>
     </Card>
   ));
-
   return (
     <Container size="lg" py="2xl" my={50}>
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Our three <span className={classes.catch}>key</span> areas
+        Our five <span className={classes.catch}>priority </span>projects
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
         Nurturing transformation, fostering empowerment, and promoting the
         well-being of communities in Rwanda
       </Text>
-
-      <SimpleGrid cols={{ base: 1, md: 3 }} spacing="xl" mt={50}>
-        {features}
-      </SimpleGrid>
+      <Container py="xl">
+        <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>
+      </Container>
+      <Box className={classes.buttonContainer}>
+        <Button
+          variant="gradient"
+          gradient={{ from: "red", to: "yellow" }}
+          size="lg"
+          className={classes.button}
+        >
+          Learn More
+        </Button>
+      </Box>
     </Container>
   );
 }

@@ -1,12 +1,22 @@
 "use client";
 
-import { Container, Title, Text, Button, Burger, Drawer } from "@mantine/core";
+import {
+  Container,
+  Title,
+  Text,
+  Button,
+  Burger,
+  Drawer,
+  Divider,
+} from "@mantine/core";
 import classes from "./HeroImageRight.module.css";
 import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../components/NavbarSimple";
 import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
 import Slider from "../components/keen/Slider";
+import { FaqWithBg } from "../components/FaqWithBg";
+import { VissionMission } from "../components/VissionMission";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -59,6 +69,8 @@ export default function Page() {
           </div>
         </Container>
       </div>
+      <VissionMission />
+      <FaqWithBg />
       <FeaturesCards />
       <Slider />
       <ContactUs />
