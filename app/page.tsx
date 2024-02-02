@@ -6,6 +6,8 @@ import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../components/NavbarSimple";
 import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
+import { Highlights } from "../components/Highlights";
+import Slider from "../components/keen/Slider";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -59,6 +61,7 @@ export default function Page() {
         </Container>
       </div>
       <FeaturesCards />
+      <Slider />
       <ContactUs />
     </>
   );

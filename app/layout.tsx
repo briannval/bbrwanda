@@ -2,10 +2,9 @@ import "@mantine/core/styles.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
-import { HeaderSimple } from "../components/HeaderSimple";
 
 export const metadata = {
-  title: "Mantine Next.js template",
+  title: "BBRwanda",
   description: "I am using Mantine with Next.js!",
 };
 
