@@ -8,13 +8,7 @@ import Image from "next/image";
 
 export default function Slider() {
   const [ref] = useKeenSlider<HTMLDivElement>();
-  const links = [
-    "/carousel1.jpeg",
-    "/carousel2.jpeg",
-    "/carousel3.jpeg",
-    "/carousel4.jpeg",
-    "/carousel5.jpeg",
-  ];
+  const links = ["/carousel1.jpeg", "/carousel4.jpeg", "/carousel5.jpeg"];
   return (
     <>
       <Title className={classes.title} ta="center">

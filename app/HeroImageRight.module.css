@@ -7,7 +7,7 @@
       rgba(220, 201, 30, 0) 30%,
       rgba(0, 0, 0, 0.4) 65%
     ),
-    url("https://static.wixstatic.com/media/ec5c5c_d9eea7b9ed29429296524b81d4b7de02~mv2.png/v1/fill/w_1653,h_1192,al_c,q_95,enc_auto/ec5c5c_d9eea7b9ed29429296524b81d4b7de02~mv2.png");
+    url("/main.jpeg");
   padding-top: 10vh;
   height: 100vh;
 }
