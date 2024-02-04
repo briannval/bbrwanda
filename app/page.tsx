@@ -9,7 +9,7 @@ import {
   Drawer,
   Box,
 } from "@mantine/core";
-import classes from "./HeroImageRight.module.css";
+import classes from "./page.module.css";
 import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../components/NavbarSimple";
 import { ContactUs } from "../components/ContactUs";

@@ -1,23 +1,19 @@
 import { useState } from "react";
-import { Group, Code, Image } from "@mantine/core";
+import { Group, Image } from "@mantine/core";
 import {
-  IconFingerprint,
-  IconKey,
-  IconDatabaseImport,
   IconReceipt2,
   IconUser,
   IconQuestionMark,
   IconHeartHandshake,
 } from "@tabler/icons-react";
-import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./NavbarSimple.module.css";
 
 const data = [
   { link: "/", label: "Home", icon: IconUser },
-  { link: "", label: "Donate", icon: IconReceipt2 },
-  { link: "", label: "About", icon: IconQuestionMark },
-  { link: "", label: "Projects", icon: IconHeartHandshake },
-  { link: "", label: "Meet the Team", icon: IconUser },
+  { link: "/", label: "Donate", icon: IconReceipt2 },
+  { link: "/about", label: "About", icon: IconQuestionMark },
+  { link: "/projects", label: "Projects", icon: IconHeartHandshake },
+  { link: "/meetTeam", label: "Meet the Team", icon: IconUser },
 ];
 
 export function NavbarSimple() {
@@ -29,10 +25,6 @@ export function NavbarSimple() {
       data-active={item.label === active || undefined}
       href={item.link}
       key={item.label}
-      onClick={(event) => {
-        event.preventDefault();
-        setActive(item.label);
-      }}
     >
       <item.icon className={classes.linkIcon} stroke={1.5} />
       <span>{item.label}</span>
