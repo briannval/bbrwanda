@@ -33,7 +33,7 @@ const mockdata = [
   {
     title: "Support to Girubumuntu Project",
     image:
-      "https://www.travelandleisure.com/thmb/eDZBsNz7hzqvVNTsthL7TcAP-k4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-header-virunga-mountains-rwanda-ALISTRWANDA0123-049a3b1c218e4358a90015bd09fff7be.jpg",
+      "https://assets.globalpartnership.org/s3fs-public/styles/hero_stories/public/2023-08/8559171613_0d5578a139_o.jpg?VersionId=Sx4q8vwLl1UI6WGmBikoCYmZH07Hzlae&itok=yz-e6e-u",
     lead: "Led by Jeanne Ingabire",
   },
   {
