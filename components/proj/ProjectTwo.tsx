@@ -8,7 +8,7 @@ export function ProjectTwo() {
 
       <div className={classes.content}>
         <Text size="lg" fw={700} className={classes.title}>
-          Plan & save
+          Quinoa Demonstration Garden
         </Text>
 
         <Text size="sm" className={classes.description}>

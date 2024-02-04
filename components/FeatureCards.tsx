@@ -21,13 +21,12 @@ const mockdata = [
   },
   {
     title: "Quinoa Demonstration Garden at the CIC, Gashora",
-    image: "https://farm4.staticflickr.com/3868/14742838447_823f42bcae.jpg",
+    image: "/quinoa.jpeg",
     lead: "Led by Cedric Habiyaremye",
   },
   {
     title: "Sustainable Development Reflection Tour, to Rwanda",
-    image:
-      "https://www.volcanoesparkrwanda.org/wp-content/uploads/2023/06/rwanda-lead-2019.jpg",
+    image: "/kigali.jpeg",
     lead: "Led by Lama Mugabo",
   },
   {
@@ -38,8 +37,7 @@ const mockdata = [
   },
   {
     title: "Support to Covaga Weavers Cooperative",
-    image:
-      " https://blog.butterfield.com/wp-content/uploads/2022/04/7-Facts-That-Will-Change-What-You-Think-About-Rwanda.png",
+    image: "/covaga.jpeg",
     lead: "Lead by Steven Kega",
   },
 ];

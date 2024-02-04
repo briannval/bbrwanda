@@ -21,8 +21,8 @@ export function ProjectOne() {
         <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
         <div className={classes.content}>
-          <Text size="lg" fw={700} className={classes.title}>
-            Plan & save
+          <Text size="md" fw={700} className={classes.title}>
+            Realization of the Covaga Innovation Center
           </Text>
 
           <Text size="sm" className={classes.description}>

@@ -24,7 +24,7 @@
 .title {
   color: var(--mantine-color-white);
   margin-bottom: calc(var(--mantine-spacing-xs) / 2);
-  font-size: 60px;
+  font-size: 36px;
 }
 
 .description {

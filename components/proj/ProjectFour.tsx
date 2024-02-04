@@ -8,7 +8,7 @@ export function ProjectFour() {
 
       <div className={classes.content}>
         <Text size="lg" fw={700} className={classes.title}>
-          Plan & save
+          Support to Girubumuntu Project
         </Text>
 
         <Text size="sm" className={classes.description}>

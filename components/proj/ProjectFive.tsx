@@ -8,7 +8,7 @@ export function ProjectFive() {
 
       <div className={classes.content}>
         <Text size="lg" fw={700} className={classes.title}>
-          Plan & save
+          Support to Covaga Weavers Cooperative
         </Text>
 
         <Text size="sm" className={classes.description}>

@@ -8,7 +8,7 @@ export function ProjectThree() {
 
       <div className={classes.content}>
         <Text size="lg" fw={700} className={classes.title}>
-          Plan & save
+          Sustainable Development Reflection Tour
         </Text>
 
         <Text size="sm" className={classes.description}>

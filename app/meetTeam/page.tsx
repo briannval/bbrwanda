@@ -1,18 +1,11 @@
 "use client";
 
-import {
-  Container,
-  Title,
-  Text,
-  Button,
-  Burger,
-  Drawer,
-  Box,
-} from "@mantine/core";
+import { Container, Title, Text, Button, Burger, Drawer } from "@mantine/core";
 import classes from "./page.module.css";
 import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../../components/NavbarSimple";
 import { ContactUs } from "../../components/ContactUs";
+import { Team } from "../../components/team/Team";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -65,6 +58,7 @@ export default function Page() {
           </div>
         </Container>
       </div>
+      <Team />
       <ContactUs />
     </>
   );
