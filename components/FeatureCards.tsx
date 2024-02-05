@@ -14,18 +14,18 @@ import classes from "./FeatureCards.module.css";
 
 const mockdata = [
   {
-    title: "Realization of the Covaga Innovation Center, Gashora",
+    title: "Realization of the Covaga Innovation Center",
     image:
       "https://enclosuretakerefuge.files.wordpress.com/2014/04/img_1062.jpg?w=739&h=540",
     lead: "Led by Steven Kega",
   },
   {
-    title: "Quinoa Demonstration Garden at the CIC, Gashora",
+    title: "Quinoa Demonstration Garden at the CIC",
     image: "/quinoa.jpeg",
     lead: "Led by Cedric Habiyaremye",
   },
   {
-    title: "Sustainable Development Reflection Tour, to Rwanda",
+    title: "Sustainable Development Reflection Tour",
     image: "/kigali.jpeg",
     lead: "Led by Lama Mugabo",
   },
@@ -67,7 +67,7 @@ export function FeaturesCards() {
   return (
     <Container size="lg" py="2xl" my={50}>
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Our five <span className={classes.catch}>priority </span>projects
+        <span className={classes.catch}>Priority </span>Projects
       </Title>
 
       <Text c="dimmed" className={classes.description} ta="center" mt="md">

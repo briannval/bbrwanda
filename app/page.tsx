@@ -72,9 +72,9 @@ export default function Page() {
       </div>
       <VissionMission />
       <Box className={classes.imagebox}>
-        <Image src="/about.jpeg" alt="About Us" width={450} height={600} />
+        <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
         <Text className={classes.caption}>
-          Lama (BBRwanda&apos;s founder), and Dancila
+          Lama (BBRwanda&apos;s founder), and Peter
         </Text>
       </Box>
       <FaqWithBg />

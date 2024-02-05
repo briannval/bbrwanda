@@ -17,8 +17,7 @@ const mockdata = [
   {
     title: "Vision",
     description: [
-      "To create, implement, and support programs that directly improve the health and well-being of Rwandan communities.",
-      "To promote Rwanda's innovation and lessons learned as a community engagement tool in Canada.",
+      "To create, implement, and support programs that directly improve the health and well-being of Rwandan communities and to promote Rwanda's innovation and lessons learned as a community engagement tool in Canada.",
     ],
     icon: IconEye,
   },
@@ -71,7 +70,7 @@ export function VissionMission() {
   return (
     <Container size="lg" py="2xl" my={50}>
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Our <span className={classes.catch}>statement</span>
+        Our <span className={classes.catch}>Statement</span>
       </Title>
 
       <Text
