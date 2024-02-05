@@ -5,6 +5,7 @@ import {
   IconUser,
   IconQuestionMark,
   IconHeartHandshake,
+  IconCamera,
 } from "@tabler/icons-react";
 import classes from "./NavbarSimple.module.css";
 
@@ -14,6 +15,7 @@ const data = [
   { link: "/about", label: "About", icon: IconQuestionMark },
   { link: "/projects", label: "Projects", icon: IconHeartHandshake },
   { link: "/meetTeam", label: "Meet the Team", icon: IconUser },
+  { link: "/gallery", label: "Gallery", icon: IconCamera },
 ];
 
 export function NavbarSimple() {
