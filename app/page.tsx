@@ -74,7 +74,7 @@ export default function Page() {
       <Box className={classes.imagebox}>
         <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
         <Text className={classes.caption}>
-          Lama (BBRwanda&apos;s founder), and Peter
+          Lama Mugabo, BBR Chair and Peter Uwiragiye, Safari Tours Operator
         </Text>
       </Box>
       <FaqWithBg />

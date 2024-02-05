@@ -1,24 +1,37 @@
-import { Avatar, Text, Button, Paper } from "@mantine/core";
+import { Avatar, Text, Button, Paper, Flex, Box } from "@mantine/core";
+import classes from "./TeamMember.module.css";
 
-export function TeamMember() {
+interface Team {
+  name: string;
+  email: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+export function TeamMember(props: Team) {
   return (
-    <Paper radius="md" withBorder p="lg" bg="var(--mantine-color-body)">
-      <Avatar
-        src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-8.png"
-        size={120}
-        radius={120}
-        mx="auto"
-      />
-      <Text ta="center" fz="lg" fw={500} mt="md">
-        Jane Fingerlicker
-      </Text>
-      <Text ta="center" c="dimmed" fz="sm">
-        jfingerlicker@me.io • Art director
-      </Text>
-
-      <Button variant="default" fullWidth mt="md">
-        Send message
-      </Button>
+    <Paper
+      className={classes.outer}
+      radius="md"
+      withBorder
+      p="lg"
+      bg="var(--mantine-color-body)"
+    >
+      <Box>
+        <Box m={40}>
+          <Avatar src={props.image} size={300} radius={300} mx="auto" />
+          <Text ta="center" fz="lg" fw={500} mt="md">
+            {props.name}
+          </Text>
+          <Text px={20} ta="center" c="dimmed" fz="sm">
+            {props.email} • {props.title}
+          </Text>
+        </Box>
+        <Box m={40}>
+          <Text>{props.description}</Text>
+        </Box>
+      </Box>
     </Paper>
   );
 }
