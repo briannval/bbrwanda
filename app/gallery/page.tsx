@@ -5,6 +5,7 @@ import classes from "./page.module.css";
 import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../../components/NavbarSimple";
 import { ContactUs } from "../../components/ContactUs";
+import { Gallery } from "../../components/stream/Gallery";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -57,6 +58,7 @@ export default function Page() {
           </div>
         </Container>
       </div>
+      <Gallery />
       <ContactUs />
     </>
   );
