@@ -1,8 +1,6 @@
 "use client";
-
 import {
   Box,
-  Image,
   Container,
   Title,
   Button,
@@ -10,11 +8,11 @@ import {
   Text,
   Divider,
 } from "@mantine/core";
-import { IconCheck } from "@tabler/icons-react";
 import classes from "./page.module.css";
 import { IconArrowLeft } from "@tabler/icons-react";
 import { Objectives } from "../../../components/proj/spec/Objectives";
 import { Leader } from "../../../components/proj/spec/Leader";
+import { projectInfo1 } from "../info/projectsInfo";
 
 export default function Page() {
   const getBack = () => {
@@ -39,8 +37,11 @@ export default function Page() {
             </Group>
           </Button>
           <Title className={classes.title}>
-            The <span className={classes.highlight}>2024</span> <br />{" "}
-            Sustainable Development Tour
+            {projectInfo1.titleLeft}{" "}
+            <span className={classes.highlight}>
+              {projectInfo1.titleHighlight}
+            </span>{" "}
+            <br /> {projectInfo1.titleRight}
           </Title>
           <Text c="dimmed" mt="md">
             Building Bridges for Rwanda (BBR) is planning to embark on a unique,
@@ -64,16 +65,16 @@ export default function Page() {
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Leader</Text>
             <Leader
-              name="Lama Mugabo"
-              email="lmugabo75@gmail.com"
-              profile="/lama.jpeg"
+              name={projectInfo1.leaderName}
+              email={projectInfo1.leaderEmail}
+              profile={projectInfo1.leaderProfile}
             />
           </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Objectives</Text>
-            <Objectives />
+            <Objectives {...projectInfo1.objectives} />
           </Box>
 
           <Divider my={40} />
@@ -81,20 +82,36 @@ export default function Page() {
             <Text className={classes.headingText}>Overview</Text>
           </Box>
 
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo1.overview}
+          </Text>
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Goal</Text>
           </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo1.goal}
+          </Text>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Purpose</Text>
           </Box>
 
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo1.purpose}
+          </Text>
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Target Audience</Text>
           </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo1.targetAudience}
+          </Text>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -102,6 +119,10 @@ export default function Page() {
               Initiatives and Projects
             </Text>
           </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo1.initiativeProject}
+          </Text>
         </div>
       </div>
     </Container>

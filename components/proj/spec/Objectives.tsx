@@ -8,6 +8,7 @@ import {
   IconHexagonNumber3,
 } from "@tabler/icons-react";
 import classes from "./Objectives.module.css";
+import { ObjectiveProps } from "../../../app/projects/[index]/projectsInfo";
 
 interface FeatureProps extends React.ComponentPropsWithoutRef<"div"> {
   icon: React.FC<any>;
@@ -32,7 +33,7 @@ function Feature({
           className={classes.icon}
           stroke={1.5}
         />
-        <Text fw={700} fz="lg" mb="xs" mt={5} className={classes.title}>
+        <Text fw={700} fz="lg" mb="xs" className={classes.title}>
           {title}
         </Text>
         <Text c="dimmed" fz="sm">
@@ -43,28 +44,28 @@ function Feature({
   );
 }
 
-const mockdata = [
-  {
-    icon: IconHexagonNumber1,
-    title: "Lead",
-    description:
-      "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity.",
-  },
-  {
-    icon: IconHexagonNumber2,
-    title: "Provide",
-    description:
-      "Slakoth’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless.",
-  },
-  {
-    icon: IconHexagonNumber3,
-    title: "Host",
-    description:
-      "Thought to have gone extinct, Relicanth was given a name that is a variation of the name of the person who discovered.",
-  },
-];
+export function Objectives({
+  objectiveTitles,
+  objectiveDescriptions,
+}: ObjectiveProps) {
+  const mockdata = [
+    {
+      icon: IconHexagonNumber1,
+      title: objectiveTitles[0],
+      description: objectiveDescriptions[0],
+    },
+    {
+      icon: IconHexagonNumber2,
+      title: objectiveTitles[1],
+      description: objectiveDescriptions[1],
+    },
+    {
+      icon: IconHexagonNumber3,
+      title: objectiveTitles[2],
+      description: objectiveDescriptions[2],
+    },
+  ];
 
-export function Objectives() {
   const items = mockdata.map((item) => <Feature {...item} key={item.title} />);
 
   return (

@@ -12,13 +12,13 @@ export function Leader({ name, email, profile }: LeaderInterface) {
   return (
     <div>
       <Group wrap="nowrap" ml={10}>
-        <Avatar src={profile} size={94} radius="md" />
+        <Avatar src={profile} size={140} radius="md" />
         <div>
           <Text fz="xs" tt="uppercase" fw={700} c="dimmed">
             Led By
           </Text>
 
-          <Text fz="lg" fw={500} className={classes.name}>
+          <Text fz="xl" fw={500} className={classes.name}>
             {name}
           </Text>
 
