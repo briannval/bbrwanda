@@ -41,6 +41,14 @@ const teamMembers: Team[] = [
       "Jeanne Ingabire is a board member of BBR, serving as an ambassador and secretary since July 2022. A career public servant with a wealth of experience in healthcare and public service, she currently works as a Briefing Officer within the Indigenous and Intergovernmental Affairs Directorate at Environment and Climate Change Canada. Prior to her career in the public service, Jeanne worked at the Ottawa Hospital as a Sleep Technologist and performed EEGs at the Ottawa Hospital’s Epilepsy Monitoring Unit. She holds a Diploma in Medical Electroneurophysiology Techniques. In addition, Jeanne has worked with the African Perspective Magazine (TAP Magazine) previously based in Ottawa Canada, where she enjoyed learning and helped promote African stories by Africans. Jeanne is passionate about healthcare, especially maternal and children’s health. On her spare time, she enjoys going on adventures with her family, movies, reading and volunteering at children’s hospitals.",
     image: "/jeanne.jpeg",
   },
+  {
+    name: "Steven Kega",
+    email: "stevenkega@gmail.com",
+    title: "Treasurer",
+    description:
+      "Steven became a part of BBR during his studies in agricultural sciences at the Institute ISAE in Rwanda. Initially recruited to support BBR's food security initiative in Gashora, Rwanda, he swiftly climbed the ranks and assumed the role of Stakeholders' Engagement Coordinator. In this capacity, he provided support to foreign volunteers and their Rwandan counterparts collaborating on community development projects. Steven's agricultural expertise and dedication to Rwanda's sustainable development goals positioned him as a key contributor to the implementation of BBR's Gashora Integrated Community Development Project, focusing on food security, nutrition, and wellness. Steven association with BBR enabled him to pursue further education at Thompson River University, where he earned an M.Sc. in Environmental Sciences. Presently, Steven Kega serves as a civil servant with AAFC - Agriculture and Agri-Food Canada, holding the position of Physical Scientist - Geoinformatics, within the Government of Canada. ",
+    image: "/steven.jpeg",
+  },
 ];
 
 export default function Page() {
