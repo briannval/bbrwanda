@@ -1,14 +1,11 @@
 import { Text, SimpleGrid, Container, rem } from "@mantine/core";
 import {
-  IconTruck,
-  IconCertificate,
-  IconCoin,
   IconHexagonNumber1,
   IconHexagonNumber2,
   IconHexagonNumber3,
 } from "@tabler/icons-react";
 import classes from "./Objectives.module.css";
-import { ObjectiveProps } from "../../../app/projects/[index]/projectsInfo";
+import { ObjectiveProps } from "../../../app/projects/info/projectsInfo";
 
 interface FeatureProps extends React.ComponentPropsWithoutRef<"div"> {
   icon: React.FC<any>;
