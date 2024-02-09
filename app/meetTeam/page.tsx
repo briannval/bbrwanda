@@ -145,10 +145,7 @@ export default function Page() {
           </div>
         </Container>
       </div>
-      <Team
-        location="Canada"
-        description="The extraordinary board members of BBRwanda"
-      />
+      <Team location="Canada" description="The board members of BBRwanda" />
       {canadaTeamMembers.map((props) => {
         return (
           <Box key={props.name} my={40}>

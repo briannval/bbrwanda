@@ -63,7 +63,7 @@ export default function Page() {
           </Group>
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
-            <Text className={classes.headingText}>Leader</Text>
+            <Text className={classes.headingText}>Project Lead</Text>
             <Leader
               name={projectInfo1.leaderName}
               email={projectInfo1.leaderEmail}

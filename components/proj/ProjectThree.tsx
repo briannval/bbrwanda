@@ -2,6 +2,10 @@ import { Card, Overlay, Button, Text, Box } from "@mantine/core";
 import classes from "./ProjectOne.module.css";
 
 export function ProjectThree() {
+  const handleClick = () => {
+    window.location.href = "/projects/one";
+  };
+
   return (
     <Card radius="md" className={classes.card}>
       <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
@@ -21,6 +25,7 @@ export function ProjectThree() {
           variant="white"
           color="dark"
           size="md"
+          onClick={handleClick}
         >
           View Details
         </Button>

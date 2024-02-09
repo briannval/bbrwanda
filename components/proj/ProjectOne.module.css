@@ -3,6 +3,7 @@
   max-width: rem(800px);
   height: rem(600px);
   background-size: cover;
+  background-image: url("/covaga.jpeg");
   background-position: center;
   margin-top: 50px;
   margin-bottom: 80px;

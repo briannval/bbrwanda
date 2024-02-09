@@ -14,7 +14,7 @@ import classes from "./FeatureCards.module.css";
 
 const mockdata = [
   {
-    title: "Realization of the Covaga Innovation Center",
+    title: "Revitalization of the Covaga Innovation Center",
     image:
       "https://enclosuretakerefuge.files.wordpress.com/2014/04/img_1062.jpg?w=739&h=540",
     lead: "Led by Steven Kega",
@@ -30,9 +30,8 @@ const mockdata = [
     lead: "Led by Lama Mugabo",
   },
   {
-    title: "Support to Girubumuntu Project",
-    image:
-      "https://assets.globalpartnership.org/s3fs-public/styles/hero_stories/public/2023-08/8559171613_0d5578a139_o.jpg?VersionId=Sx4q8vwLl1UI6WGmBikoCYmZH07Hzlae&itok=yz-e6e-u",
+    title: "Support to Gira Ubumuntu Project",
+    image: "/ubumuntu.jpeg",
     lead: "Led by Jeanne Ingabire",
   },
   {

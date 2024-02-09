@@ -25,7 +25,7 @@ export interface ObjectiveProps {
 export const projectInfo1: ProjectProps = {
   titleLeft: "The",
   titleHighlight: "2024",
-  titleRight: "Sustainable Development Tour",
+  titleRight: "Sustainable Development Reflection Tour",
   description:
     "Building Bridges for Rwanda (BBR) is planning to embark on a unique, collaborative, and transnational Sustainable Development Reflection Tour in Rwanda in order to showcase and highlight 4 innovative and transformational projects that will lead to greatly improving the lives, environment, and communities in rural Rwanda.",
   leaderProfile: "/lama.jpeg",
