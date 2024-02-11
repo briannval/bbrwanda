@@ -1,23 +1,11 @@
 "use client";
 
-import {
-  Container,
-  Title,
-  Text,
-  Button,
-  Burger,
-  Drawer,
-  Box,
-} from "@mantine/core";
+import { Container, Title, Text, Button, Burger, Drawer } from "@mantine/core";
 import classes from "./page.module.css";
 import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../../components/NavbarSimple";
 import { ContactUs } from "../../components/ContactUs";
 import { ProjectOne } from "../../components/proj/ProjectOne";
-import { ProjectTwo } from "../../components/proj/ProjectTwo";
-import { ProjectThree } from "../../components/proj/ProjectThree";
-import { ProjectFour } from "../../components/proj/ProjectFour";
-import { ProjectFive } from "../../components/proj/ProjectFive";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
