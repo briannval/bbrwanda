@@ -1,28 +1,35 @@
-export interface ProjectProps {
-  titleLeft: string;
-  titleHighlight: string;
-  titleRight: string;
-  description: string;
-  leaderProfile: string;
-  leaderName: string;
-  leaderEmail: string;
-  objectives: {
-    objectiveTitles: string[];
-    objectiveDescriptions: string[];
-  };
-  overview: string;
-  goal: string;
-  purpose: string;
-  targetAudience: string;
-  initiativeProject: string;
-}
-
 export interface ObjectiveProps {
   objectiveTitles: string[];
   objectiveDescriptions: string[];
 }
 
-export const projectInfo1: ProjectProps = {
+export const projectInfo3 = {
+  titleHighlight: "Quinoa",
+  titleRight: "Demonstration Garden",
+  description: "",
+  leaderProfile: "/cedric.jpeg",
+  leaderName: "Cedric Habiyaremye",
+  leaderEmail: "h.cedric3@gmail.com",
+};
+
+export const projectInfo2 = {
+  titleLeft: "Support To",
+  titleHighlight: "COVAGA",
+  titleRight: "Woman's Weaving Cooperative",
+  description:
+    "Gashora Weavers Cooperative, known as COVAGA (short for Cooperative de Vannerie de Gashora in French), is a collective of 61 members, comprising of women and children, dedicated to weaving traditional baskets using natural fibres. Their products are being sold to both tourists and local customers.",
+  leaderProfile: "/steven.jpeg",
+  leaderName: "Steven Kega",
+  leaderEmail: "stevenkega@gmail.com",
+  history:
+    " Almost over two decades ago, Rwanda faced significant environmental challenges with the proliferation of the water hyacinth, an invasive weed originally from the Amazon River basin in South America. This aggressive plant choked lakes and rivers, blocking the sunlight from reaching the water, which disrupted the natural balance of aquatic ecosystems. Lakes were gradually disappearing as the water hyacinth continued to multiply and form dense mats on the water's surface. Seeking a sustainable solution to this environmental crisis, COVAGA members began clearing the water hyacinth from the lakes and then used the stems of the water hyacinth to create a range of products, including hats, fruit baskets, and wall decorations. What sets COVAGA’s work apart is their ability to transform an environmental problem into a sustainable solution by providing social and economic opportunities to the members through their weaving and selling of these innovative products to consumers.",
+  construction:
+    "Starting in 2009, BBR (Building Bridges with Rwanda) collaborated with various internal partners to facilitate the construction of the Covaga Innovation Centre. This purpose-built facility serves as a hub where COVAGA weavers not only carry out their craft but also market their products. Additionally, it provides a space for collaboration with other community members, fostering the exchange of ideas and skills. BBR's contribution to establishing this infrastructure significantly improved COVAGA's productivity and social well-being, particularly in terms of economic stability. The Covaga Innovation Centre has played a pivotal role in enhancing the cooperative's capacity to thrive and further contribute to the sustainable development of their community.",
+  future:
+    "BBR is presently embarking on a project aimed at revitalizing COVAGA by building more infrastructure, enhancing the Centre’s productivity, and strengthening economic stability for its members. This initiative serves as a ray of hope, transforming environmental challenges into a sustainable source of livelihood. It ensures a brighter future not only for the cooperative but also for the entire Gashora community. COVAGA aspires to be more than just a center of economic activity; it's destined to become a symbol of resilience, innovation, and empowerment. Through this collaboration, we aim to foster a thriving community while preserving age-old traditions and protecting the environment. Together, we are forging a path towards a sustainable and prosperous future for all involved.",
+};
+
+export const projectInfo1 = {
   titleLeft: "The",
   titleHighlight: "2024",
   titleRight: "Sustainable Development Reflection Tour",
