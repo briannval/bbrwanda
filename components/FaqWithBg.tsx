@@ -45,13 +45,15 @@ export function FaqWithBg() {
               </Accordion.Control>
               <Accordion.Panel>
                 The 2024 Sustainable Development Reflection Tour to Rwanda is an
-                upcoming initiative by Building Bridges with Rwanda (BBR). This
-                unique, collaborative, and transnational reflection tour is
-                scheduled for the late summer. The primary objective of the tour
-                is to provide firsthand information to Canadians who have not
-                visited Rwanda but are eager to gain insights into the
-                country&apos;s remarkable transformation, evolving from a failed
-                state in 1994 to a model state today.
+                upcoming initiative by Building Bridges with Rwanda (BBR) in
+                collaboration with Simon Fraser University through the Remember
+                Rwanda 25 Years Legacy Project RR25 Legacy Project. This unique,
+                collaborative, and transnational reflection tour is scheduled
+                for the late summer. The primary objective of the tour is to
+                provide firsthand information to Canadians who have not visited
+                Rwanda but are eager to gain insights into the country&#39;s
+                remarkable transformation, evolving from a failed state in 1994
+                to a model state today.
                 <br></br>
                 Find out more about the tour{" "}
                 <span className={classes.learnmorebutton}>here</span>
@@ -82,7 +84,7 @@ export function FaqWithBg() {
               </Accordion.Control>
               <Accordion.Panel>
                 From 2008 to 2013, Building Bridges with Rwanda hosted over six
-                hundred visitors seeking to delve into Rwanda&apos,s history,
+                hundred visitors seeking to delve into Rwanda&apos;s history,
                 culture, and developmental progress. During their stay in
                 Rwanda, volunteers actively immersed themselves in the
                 community, collaborating with Rwandans on projects such as the
@@ -116,25 +118,25 @@ export function FaqWithBg() {
                 <Text className={classes.question}>BBR in Canada</Text>
               </Accordion.Control>
               <Accordion.Panel>
-                Building Bridges with Rwanda activities in Canada are centred
-                around involving the public in gaining a more profound
-                understanding of Rwanda&apos;s development journey, culture, and
-                history. Our efforts include the organization of public
-                engagement events in collaboration with colleges and
-                universities. We facilitate workshops, conferences, seminars,
-                and present keynote addresses as invited guest speakers to
-                foster dialogue and awareness.
-                <br />
-                <br />
-                Additionally, BBR operates Baraza Collective as the for-profit
-                arm of the organization, which comprises three components.
-                Firstly, there is Baraza Boutique, offering Made in Rwanda
-                products. Secondly, there is the Baraza Podcast with Lama
-                Mugabo, featuring conversations with change agents who share
-                insights on community-building, nutrition, and wellness. These
-                initiatives collectively contribute to the organization&apos;s
-                mission of connecting and informing the Canadian public about
-                Rwanda.
+                Building Bridges with Rwanda (BBR) in Canada is dedicated to
+                engaging the public and promoting a deeper understanding of
+                Rwanda&#39;s development journey, culture, and history. Our
+                initiatives revolve around collaborating with colleges and
+                universities to organize public engagement events. We actively
+                facilitate workshops, conferences, 2 seminars, and deliver
+                keynote addresses as invited guest speakers to encourage
+                dialogue and raise awareness.
+                <br></br>
+                <br></br>
+                Furthermore, BBR operates Baraza Collective as the
+                profit-generating arm of the organization, consisting of three
+                key components. Baraza Boutique offers a range of Made in Rwanda
+                products, creating a platform for sustainable commerce. The
+                Baraza Podcast, hosted by Lama Mugabo, features conversations
+                with change agents sharing insights on community development,
+                nutrition, and wellness. These combined efforts align with our
+                mission to connect and inform audiences about Rwanda in a
+                dynamic and evolving global context.
               </Accordion.Panel>
             </Accordion.Item>
           </Accordion>

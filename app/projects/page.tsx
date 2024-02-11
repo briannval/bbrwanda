@@ -71,10 +71,6 @@ export default function Page() {
         </Container>
       </div>
       <ProjectOne />
-      <ProjectTwo />
-      <ProjectThree />
-      <ProjectFour />
-      <ProjectFive />
       <ContactUs />
     </>
   );

@@ -49,7 +49,7 @@ export function Gallery() {
             </Grid.Col>
             <Grid.Col span={6}>
               <Image
-                src="/gallery3.jpeg"
+                src="/galler3.jpeg"
                 alt="Gallery"
                 height={PRIMARY_COL_HEIGHT}
                 radius="lg"
@@ -57,7 +57,7 @@ export function Gallery() {
             </Grid.Col>
             <Grid.Col span={6}>
               <Image
-                src="/gallery4.jpeg"
+                src="/galler4.jpeg"
                 alt="Gallery"
                 height={PRIMARY_COL_HEIGHT}
                 radius="lg"
@@ -73,7 +73,7 @@ export function Gallery() {
             <Image src="/gallery5.jpeg" alt="Gallery" radius="lg" />
           </Grid.Col>
           <Grid.Col span={{ base: 12, xs: 8 }}>
-            <Image src="/gallery6.jpeg" alt="Gallery" radius="lg" />
+            <Image src="/galler.jpeg" alt="Gallery" radius="lg" />
           </Grid.Col>
           <Grid.Col span={{ base: 12, xs: 8 }}>{child}</Grid.Col>
           <Grid.Col span={{ base: 12, xs: 4 }}>{child}</Grid.Col>

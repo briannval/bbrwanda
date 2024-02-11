@@ -3,10 +3,30 @@ export interface ObjectiveProps {
   objectiveDescriptions: string[];
 }
 
+export const projectInfo5 = {
+  titleHighlight: "Revitalization",
+  titleRight: "of the Covaga Innovation Center",
+  description: "",
+  leaderProfile: "/steven.jpeg",
+  leaderName: "Steven Kega",
+  leaderEmail: "stevenkega@gmail.com",
+};
+
+export const projectInfo4 = {
+  titleLeft: "Support To",
+  titleHighlight: "Gira Ubumuntu",
+  titleRight: "Project",
+  description: "",
+  leaderProfile: "/jeanne.jpeg",
+  leaderName: "Jeanne Ingabire",
+  leaderEmail: "jeanneingabire107@gmail.com",
+};
+
 export const projectInfo3 = {
   titleHighlight: "Quinoa",
   titleRight: "Demonstration Garden",
-  description: "",
+  description:
+    "Malnutrition and hunger remain pressing challenges in Gashora, Bugesera, Rwanda, affecting the health and well-being of the local population. To address this issue, we are developing the establishment of a Quinoa Demonstration Garden in collaboration with QuinoaHub Ltd., COVAGA, local community organizations, and the Gashora Sector.",
   leaderProfile: "/cedric.jpeg",
   leaderName: "Cedric Habiyaremye",
   leaderEmail: "h.cedric3@gmail.com",

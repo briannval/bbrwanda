@@ -24,7 +24,7 @@ export function ProjectOne() {
           well-being of communities in Rwanda
         </Text>
 
-        <Card radius="md" className={classes.card}>
+        <Card radius="md" className={`${classes.card} ${classes.cardOne}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
           <div className={classes.content}>
@@ -32,13 +32,91 @@ export function ProjectOne() {
               Revitalization of the Covaga Innovation Center
             </Text>
 
-            <Text size="sm" className={classes.description}>
-              Save up to 25% at Fifth Season Hotels in Europe, the Middle East,
-              Africa and Asia Pacific
-            </Text>
+            <Text size="sm" className={classes.description}></Text>
 
             <Button
               onClick={handleClick}
+              className={classes.action}
+              variant="white"
+              color="dark"
+              size="md"
+            >
+              View Details
+            </Button>
+          </div>
+        </Card>
+        <Card radius="md" className={`${classes.card} ${classes.cardTwo}`}>
+          <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
+
+          <div className={classes.content}>
+            <Text size="lg" fw={700} className={classes.title}>
+              Quinoa Demonstration Garden
+            </Text>
+
+            <Text size="sm" className={classes.description}></Text>
+
+            <Button
+              className={classes.action}
+              variant="white"
+              color="dark"
+              size="md"
+            >
+              View Details
+            </Button>
+          </div>
+        </Card>
+        <Card radius="md" className={`${classes.card} ${classes.cardThree}`}>
+          <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
+
+          <div className={classes.content}>
+            <Text size="lg" fw={700} className={classes.title}>
+              Sustainable Development Reflection Tour
+            </Text>
+
+            <Text size="sm" className={classes.description}></Text>
+
+            <Button
+              className={classes.action}
+              variant="white"
+              color="dark"
+              size="md"
+              onClick={handleClick}
+            >
+              View Details
+            </Button>
+          </div>
+        </Card>
+        <Card radius="md" className={`${classes.card} ${classes.cardFour}`}>
+          <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
+
+          <div className={classes.content}>
+            <Text size="lg" fw={700} className={classes.title}>
+              Support to Gira Ubumuntu Project
+            </Text>
+
+            <Text size="sm" className={classes.description}></Text>
+
+            <Button
+              className={classes.action}
+              variant="white"
+              color="dark"
+              size="md"
+            >
+              View Details
+            </Button>
+          </div>
+        </Card>
+        <Card radius="md" className={`${classes.card} ${classes.cardFive}`}>
+          <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
+
+          <div className={classes.content}>
+            <Text size="lg" fw={700} className={classes.title}>
+              Support to Covaga Weavers Cooperative
+            </Text>
+
+            <Text size="sm" className={classes.description}></Text>
+
+            <Button
               className={classes.action}
               variant="white"
               color="dark"
