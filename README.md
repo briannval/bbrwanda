@@ -1,5 +1,8 @@
-# Mantine Next Template
+# A Simple Fundraising Website
 
-Get started with the template by clicking `Use this template` button on the top of the page.
+Website to help fundraise for a tour to support development
 
-[Documentation](https://mantine.dev/guides/next/)
+## Tools
+
+- Next JS
+- Mantine UI
