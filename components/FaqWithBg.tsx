@@ -16,7 +16,7 @@ export function FaqWithBg() {
       <Container size="sm">
         <Box>
           <Title ta="center" className={classes.title}>
-            About Us
+            Quick Overview
           </Title>
 
           <Accordion

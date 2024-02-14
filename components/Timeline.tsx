@@ -76,10 +76,10 @@ export function History() {
                 <Text className={classes.timelineTitle} size="lg" mb={10}>
                   {historyItem.title}
                 </Text>
-                <Text c="dimmed" size="md">
+                <Text c="dimmed" size="xs">
                   {historyItem.description}
                 </Text>
-                <Text size="md" mt={4}>
+                <Text size="md" mt={10}>
                   {historyItem.year}
                 </Text>
               </Timeline.Item>

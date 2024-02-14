@@ -17,6 +17,7 @@ import { FeaturesCards } from "../components/FeatureCards";
 import Slider from "../components/keen/Slider";
 import { FaqWithBg } from "../components/FaqWithBg";
 import Image from "next/image";
+import { FeaturesImages } from "../components/FeaturesImages";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -79,6 +80,7 @@ export default function Page() {
           </Text>
         </Text>
       </Box>
+      <FeaturesImages />
       <FaqWithBg />
       <Box className={classes.imagebox}>
         <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
