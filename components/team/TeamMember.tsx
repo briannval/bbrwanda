@@ -18,19 +18,15 @@ export function TeamMember(props: Team) {
       p="lg"
       bg="var(--mantine-color-body)"
     >
-      <Box>
-        <Box m={40}>
-          <Avatar src={props.image} size={300} radius={300} mx="auto" />
-          <Text ta="center" fz="lg" fw={500} mt="md">
-            {props.name}
-          </Text>
-          <Text px={20} ta="center" c="dimmed" fz="sm">
-            {props.email} • {props.title}
-          </Text>
-        </Box>
-        <Box m={40}>
-          <Text>{props.description}</Text>
-        </Box>
+      <Avatar src={props.image} size={300} radius={300} mx="auto" />
+      <Text ta="center" fz="lg" fw={500} mt="md">
+        {props.name}
+      </Text>
+      <Text px={20} ta="center" c="dimmed" fz="sm">
+        {props.title}
+      </Text>
+      <Box m={{ md: 40 }} mt={10}>
+        <Text className={classes.description}>{props.description}</Text>
       </Box>
     </Paper>
   );

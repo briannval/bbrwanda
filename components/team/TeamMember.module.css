@@ -1,4 +1,15 @@
 .outer {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+@media screen and (min-width: 600px) {
+  .outer {
+    margin-left: 20vw; /* Adjust margin for wider screens */
+    margin-right: 20vw; /* Adjust margin for wider screens */
+  }
+}
+
+.description {
+  font-size: 14px;
 }

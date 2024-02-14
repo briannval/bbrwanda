@@ -63,9 +63,12 @@ export function History() {
           Our <span className={classes.catch}>history</span>
         </Title>
 
-        <Text c="dimmed" className={classes.description} ta="center" mt="md">
-          Tracing the legacy of transformation and empowerment over the years
-        </Text>
+        <Text
+          c="dimmed"
+          className={classes.description}
+          ta="center"
+          mt="md"
+        ></Text>
         <Timeline active={-1} bulletSize={45} lineWidth={4} my={20}>
           {history.map((historyItem) => {
             return (

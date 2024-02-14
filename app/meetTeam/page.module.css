@@ -15,26 +15,11 @@
 .inner {
   display: flex;
   justify-content: space-between;
-
-  @media (max-width: $mantine-breakpoint-md) {
-    flex-direction: column;
-  }
-}
-
-.image {
-  @media (max-width: $mantine-breakpoint-md) {
-    display: none;
-  }
 }
 
 .content {
   padding-top: calc(var(--mantine-spacing-xl) * 2);
   padding-bottom: calc(var(--mantine-spacing-xl) * 2);
-  margin-right: calc(var(--mantine-spacing-xl) * 3);
-
-  @media (max-width: $mantine-breakpoint-md) {
-    margin-right: 0;
-  }
 }
 
 .title {

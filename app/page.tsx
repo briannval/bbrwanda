@@ -16,7 +16,6 @@ import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
 import Slider from "../components/keen/Slider";
 import { FaqWithBg } from "../components/FaqWithBg";
-import { VissionMission } from "../components/VissionMission";
 import Image from "next/image";
 
 export default function Page() {
@@ -70,14 +69,23 @@ export default function Page() {
           </div>
         </Container>
       </div>
-      <VissionMission />
+
+      <Box className={classes.imagebox}>
+        <Text className={classes.welcomeText}>
+          Welcome to
+          <Text component="span" inherit color="orange">
+            {" "}
+            BBRwanda!
+          </Text>
+        </Text>
+      </Box>
+      <FaqWithBg />
       <Box className={classes.imagebox}>
         <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
         <Text className={classes.caption}>
           Lama Mugabo, BBR Chair and Peter Uwiragiye, Safari Tours Operator
         </Text>
       </Box>
-      <FaqWithBg />
       <FeaturesCards />
       <Slider />
       <ContactUs />

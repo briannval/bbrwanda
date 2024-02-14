@@ -14,6 +14,7 @@ import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../../components/NavbarSimple";
 import { ContactUs } from "../../components/ContactUs";
 import { History } from "../../components/Timeline";
+import { VissionMission } from "../../components/VissionMission";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -66,6 +67,7 @@ export default function Page() {
           </div>
         </Container>
       </div>
+      <VissionMission />
       <Box className={classes.history}>
         <History />
       </Box>
