@@ -1,5 +1,5 @@
 import {
-  Image,
+  Box,
   Text,
   Container,
   ThemeIcon,
@@ -43,17 +43,17 @@ export function FeaturesImages() {
       <ThemeIcon
         variant="light"
         className={classes.itemIcon}
-        size={60}
+        size={90}
         radius="md"
       >
         <item.icon className={classes.linkIcon} />
       </ThemeIcon>
 
       <div>
-        <Text fw={700} fz="lg" className={classes.itemTitle}>
-          {item.title}
+        <Text className={classes.itemTitle}>{item.title}</Text>
+        <Text size="lg" c="dimmed">
+          {item.description}
         </Text>
-        <Text c="dimmed">{item.description}</Text>
       </div>
     </div>
   ));
@@ -73,9 +73,11 @@ export function FeaturesImages() {
         </Text>
       </Container>
 
-      <SimpleGrid cols={{ base: 1, xs: 2 }} spacing={50} mt={30}>
-        {items}
-      </SimpleGrid>
+      <Box className={classes.gridWrapper}>
+        <SimpleGrid cols={1} spacing={50} mt={30}>
+          {items}
+        </SimpleGrid>
+      </Box>
     </Container>
   );
 }

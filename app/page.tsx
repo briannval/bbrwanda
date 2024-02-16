@@ -14,9 +14,6 @@ import { useDisclosure } from "@mantine/hooks";
 import { NavbarSimple } from "../components/NavbarSimple";
 import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
-import Slider from "../components/keen/Slider";
-import { FaqWithBg } from "../components/FaqWithBg";
-import Image from "next/image";
 import { FeaturesImages } from "../components/FeaturesImages";
 
 export default function Page() {
@@ -73,23 +70,15 @@ export default function Page() {
 
       <Box className={classes.imagebox}>
         <Text className={classes.welcomeText}>
-          Welcome to
+          Inform, Engage,
           <Text component="span" inherit color="orange">
             {" "}
-            BBRwanda!
+            Inspire.
           </Text>
         </Text>
       </Box>
       <FeaturesImages />
-      <FaqWithBg />
-      <Box className={classes.imagebox}>
-        <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
-        <Text className={classes.caption}>
-          Lama Mugabo, BBR Chair and Peter Uwiragiye, Safari Tours Operator
-        </Text>
-      </Box>
       <FeaturesCards />
-      <Slider />
       <ContactUs />
     </>
   );

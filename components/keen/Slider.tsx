@@ -11,8 +11,8 @@ export default function Slider() {
   const links = ["/carousel4.jpeg", "/carousel5.jpeg"];
   return (
     <>
-      <Title className={classes.title} ta="center">
-        Photos Of Us
+      <Title order={2} className={classes.title} ta="center" mt="xl">
+        Top <span className={classes.catch}>Highlights</span>
       </Title>
       <Text c="dimmed" className={classes.description} ta="center" mt="md">
         Swipe to see more of us

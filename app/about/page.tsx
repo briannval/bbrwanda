@@ -15,6 +15,8 @@ import { NavbarSimple } from "../../components/NavbarSimple";
 import { ContactUs } from "../../components/ContactUs";
 import { History } from "../../components/Timeline";
 import { VissionMission } from "../../components/VissionMission";
+import { FaqWithBg } from "../../components/FaqWithBg";
+import Image from "next/image";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -68,8 +70,15 @@ export default function Page() {
         </Container>
       </div>
       <VissionMission />
+      <FaqWithBg />
       <Box className={classes.history}>
         <History />
+      </Box>
+      <Box className={classes.imagebox}>
+        <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
+        <Text className={classes.caption}>
+          Lama Mugabo, BBR Chair and Peter Uwiragiye, Safari Tours Operator
+        </Text>
       </Box>
       <ContactUs />
     </>

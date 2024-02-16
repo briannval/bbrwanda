@@ -14,6 +14,8 @@
 
 .itemTitle {
   margin-bottom: calc(var(--mantine-spacing-xs) / 2);
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .supTitle {
@@ -46,6 +48,13 @@
 
 .linkIcon {
   color: var(--mantine-color-orange-5);
-  width: rem(30px);
-  height: rem(30px);
+  width: rem(50px);
+  height: rem(50px);
+}
+
+.gridWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
