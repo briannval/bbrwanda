@@ -1,9 +1,8 @@
-import { Avatar, Text, Button, Paper, Flex, Box } from "@mantine/core";
+import { Avatar, Text, Paper, Box } from "@mantine/core";
 import classes from "./TeamMember.module.css";
 
 interface Team {
   name: string;
-  email: string;
   title: string;
   description: string;
   image: string;
