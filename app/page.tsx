@@ -71,7 +71,7 @@ export default function Page() {
 
       <Box className={classes.imagebox}>
         <Text className={classes.welcomeText}>
-          Inform, Engage,
+          Inform. Engage.
           <Text component="span" inherit color="orange">
             {" "}
             Inspire.

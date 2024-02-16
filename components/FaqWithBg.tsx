@@ -59,6 +59,29 @@ export function FaqWithBg() {
                 <span className={classes.learnmorebutton}>here</span>
               </Accordion.Panel>
             </Accordion.Item>
+            <Accordion.Item className={classes.item} value="second">
+              <Accordion.Control>
+                <Text className={classes.question}>Kwibuka 30</Text>
+              </Accordion.Control>
+              <Accordion.Panel>
+                Kwibuka 30 signifies the 30th remembrance of the genocide
+                against the Tutsi, which began on April 7th, 1994. The focal
+                point of this commemoration is the Kigali Genocide Memorial,
+                where the flame of remembrance is ignited, and dignitaries place
+                wreaths at mass graves. In Kinyarwanda, Kwibuka means to
+                &quot;to remember.&quot; Each year witnesses the orchestration
+                of Kwibuka ceremonies and events designed to pay homage to the
+                victims of the genocide. These gatherings provide a platform to
+                reflect on the progress achieved in the nation&#39;s healing and
+                reconstruction process. The commemoration serves as a time for
+                contemplation, mourning, and the promotion of unity, underscored
+                by a collective commitment to preventing such atrocities in the
+                future. Throughout Kwibuka commemorations, a range of activities
+                unfolds, encompassing memorial services, discussions,
+                educational programs, and initiatives geared towards fostering
+                unity and reconciliation within Rwanda.
+              </Accordion.Panel>
+            </Accordion.Item>
             <Accordion.Item className={classes.item} value="first">
               <Accordion.Control>
                 <Text className={classes.question}>
