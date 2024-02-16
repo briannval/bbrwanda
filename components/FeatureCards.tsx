@@ -78,10 +78,11 @@ export function FeaturesCards() {
       </Container>
       <Box className={classes.buttonContainer}>
         <Button
-          variant="gradient"
-          gradient={{ from: "red", to: "yellow" }}
           size="lg"
           className={classes.button}
+          onClick={() => {
+            window.location.href = "/projects";
+          }}
         >
           Learn More
         </Button>

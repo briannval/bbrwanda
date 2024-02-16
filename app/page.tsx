@@ -15,6 +15,7 @@ import { NavbarSimple } from "../components/NavbarSimple";
 import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
 import { FeaturesImages } from "../components/FeaturesImages";
+import { EmailBanner } from "../components/EmailBanner";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -78,6 +79,7 @@ export default function Page() {
         </Text>
       </Box>
       <FeaturesImages />
+      <EmailBanner />
       <FeaturesCards />
       <ContactUs />
     </>
