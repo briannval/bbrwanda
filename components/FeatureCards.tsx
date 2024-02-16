@@ -1,12 +1,10 @@
 import {
-  Button,
   Title,
   Text,
   Card,
   SimpleGrid,
   Container,
   useMantineTheme,
-  Box,
   AspectRatio,
   Image,
 } from "@mantine/core";
@@ -14,10 +12,9 @@ import classes from "./FeatureCards.module.css";
 
 const mockdata = [
   {
-    title: "Revitalization of the Covaga Innovation Center",
-    image:
-      "https://enclosuretakerefuge.files.wordpress.com/2014/04/img_1062.jpg?w=739&h=540",
-    lead: "Led by Steven Kega",
+    title: "Sustainable Development Reflection Tour",
+    image: "/kigali.jpeg",
+    lead: "Led by Lama Mugabo",
   },
   {
     title: "Quinoa Demonstration Garden at the CIC",
@@ -25,9 +22,10 @@ const mockdata = [
     lead: "Led by Cedric Habiyaremye",
   },
   {
-    title: "Sustainable Development Reflection Tour",
-    image: "/kigali.jpeg",
-    lead: "Led by Lama Mugabo",
+    title: "Revitalization of the Covaga Innovation Center",
+    image:
+      "https://enclosuretakerefuge.files.wordpress.com/2014/04/img_1062.jpg?w=739&h=540",
+    lead: "Led by Steven Kega",
   },
   {
     title: "Support to Gira Ubumuntu Project",
