@@ -2,6 +2,7 @@ import { Title, Card, Overlay, Button, Text, Box } from "@mantine/core";
 import classes from "./ProjectOne.module.css";
 
 export function ProjectOne() {
+  // handle href links
   const handleClick = (endPoint: number) => {
     switch (endPoint) {
       case 1:
@@ -32,7 +33,6 @@ export function ProjectOne() {
           Our five <span className={classes.headerCatch}>priority </span>
           projects
         </Title>
-
         <Text
           c="dimmed"
           className={classes.headerDescription}
@@ -43,6 +43,7 @@ export function ProjectOne() {
           well-being of communities in Rwanda
         </Text>
 
+        {/* Sustainable Development Tour -> Project ONE */}
         <Card radius="md" className={`${classes.card} ${classes.cardThree}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
@@ -67,6 +68,7 @@ export function ProjectOne() {
           </div>
         </Card>
 
+        {/* Covaga Weavers Cooperative -> Project TWO */}
         <Card radius="md" className={`${classes.card} ${classes.cardFive}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
@@ -91,6 +93,7 @@ export function ProjectOne() {
           </div>
         </Card>
 
+        {/* Quinoa Demonstration Garden -> Project THREE */}
         <Card radius="md" className={`${classes.card} ${classes.cardTwo}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
@@ -115,6 +118,7 @@ export function ProjectOne() {
           </div>
         </Card>
 
+        {/* Gira Ubumuntu -> Project FOUR */}
         <Card radius="md" className={`${classes.card} ${classes.cardFour}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
@@ -138,6 +142,8 @@ export function ProjectOne() {
             </Button>
           </div>
         </Card>
+
+        {/* Revitalization of CIC -> Project FIVE */}
         <Card radius="md" className={`${classes.card} ${classes.cardOne}`}>
           <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 

@@ -48,18 +48,18 @@ export function Objectives({
   const mockdata = [
     {
       icon: IconHexagonNumber1,
-      title: objectiveTitles[0],
-      description: objectiveDescriptions[0],
+      title: objectiveTitles[0], // title Objective One
+      description: objectiveDescriptions[0], // description Objective One
     },
     {
       icon: IconHexagonNumber2,
-      title: objectiveTitles[1],
-      description: objectiveDescriptions[1],
+      title: objectiveTitles[1], // title Objective Two
+      description: objectiveDescriptions[1], // description Objective Two
     },
     {
       icon: IconHexagonNumber3,
-      title: objectiveTitles[2],
-      description: objectiveDescriptions[2],
+      title: objectiveTitles[2], // title Objective Three
+      description: objectiveDescriptions[2], // description Objective Three
     },
   ];
 
