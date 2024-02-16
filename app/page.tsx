@@ -16,6 +16,7 @@ import { ContactUs } from "../components/ContactUs";
 import { FeaturesCards } from "../components/FeatureCards";
 import { FeaturesImages } from "../components/FeaturesImages";
 import { EmailBanner } from "../components/EmailBanner";
+import { VolunteerForm } from "../components/VolunteerForm";
 
 export default function Page() {
   const [opened, { toggle }] = useDisclosure();
@@ -81,6 +82,7 @@ export default function Page() {
       <FeaturesImages />
       <EmailBanner />
       <FeaturesCards />
+      <VolunteerForm />
       <ContactUs />
     </>
   );

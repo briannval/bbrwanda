@@ -76,17 +76,6 @@ export function FeaturesCards() {
       <Container py="xl">
         <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>
       </Container>
-      <Box className={classes.buttonContainer}>
-        <Button
-          size="lg"
-          className={classes.button}
-          onClick={() => {
-            window.location.href = "/projects";
-          }}
-        >
-          Learn More
-        </Button>
-      </Box>
     </Container>
   );
 }
