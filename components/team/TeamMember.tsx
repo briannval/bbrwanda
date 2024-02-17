@@ -17,7 +17,7 @@ export function TeamMember(props: Team) {
       p="lg"
       bg="var(--mantine-color-body)"
     >
-      <Avatar src={props.image} size={300} radius={300} mx="auto" />
+      <Avatar src={`/team${props.image}`} size={300} radius={300} mx="auto" />
       <Text ta="center" fz="lg" fw={500} mt="md">
         {props.name}
       </Text>
