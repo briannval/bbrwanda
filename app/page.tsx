@@ -31,10 +31,10 @@ export default function Page() {
         <Container size="lg">
           <div className={classes.inner}>
             <div className={classes.content}>
-              <Drawer offset={10} opened={opened} onClose={toggle}>
-                <NavbarSimple />
-              </Drawer>
               <Box display="flex">
+                <Drawer offset={10} opened={opened} onClose={toggle}>
+                  <NavbarSimple />
+                </Drawer>
                 <Group
                   style={{
                     display: "flex",
@@ -47,7 +47,6 @@ export default function Page() {
                     onClick={toggle}
                     color="white"
                     size={"lg"}
-                    mb={10}
                   />
                   <Badge color="orange">
                     <Group
