@@ -37,12 +37,7 @@ export function NavbarSimple() {
     <nav className={classes.navbar}>
       <div className={classes.navbarMain}>
         <Group className={classes.header} justify="space-between">
-          <Image
-            src="https://static.wixstatic.com/media/ec5c5c_983dfd0763e841098a6c887e9788c5f2~mv2.png/v1/fill/w_216,h_125,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec5c5c_983dfd0763e841098a6c887e9788c5f2~mv2.png"
-            alt="LOGO"
-            width={100}
-            height={100}
-          />
+          <Image src="/logo.jpeg" alt="LOGO" width={200} height={200} />
         </Group>
         {links}
       </div>
