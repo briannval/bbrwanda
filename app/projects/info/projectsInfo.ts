@@ -30,6 +30,12 @@ export const projectInfo3 = {
   leaderProfile: "/cedric.jpeg",
   leaderName: "Cedric Habiyaremye",
   leaderEmail: "h.cedric3@gmail.com",
+  about:
+    "Quinoa is a highly nutritious, drought-resistant crop that has the potential to significantly improve nutrition diversity, food security and health in the region. This project aims to demonstrate the viability and benefits of quinoa cultivation, provide training and education to local farmers and community members, and promote quinoa as a key element in a diversified and resilient food system. By diversifying crops and improving nutrition, we aim to enhance the overall well-being of the community, reduce food insecurity, and increase the resilience of the local agricultural sector.",
+  sustainability:
+    "To ensure the sustainability of the project, we will work closely with the community and local partners, transferring knowledge and resources gradually. The establishment of a quinoa farmers&#39; association will play a key role in long-term sustainability, ensuring ongoing support and collaboration. The project will also encourage seed saving and exchange among local farmers, establishing a community cooperative for quinoa production, consumption, and marketing.",
+  potential:
+    "The Quinoa Demonstration Garden project in Gashora, Bugesera, Rwanda, has the potential to dramatically improve the lives of local residents by addressing malnutrition and poverty, food insecurity, and fostering lasting positive change. This project aligns with national and the global UN Sustainable Development Goals and will serve as a transformational model for other regions facing similar food and poverty challenges.",
 };
 
 export const projectInfo2 = {
