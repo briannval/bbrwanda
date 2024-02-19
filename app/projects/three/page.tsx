@@ -1,5 +1,6 @@
 "use client";
 import {
+  Image,
   Box,
   Container,
   Title,
@@ -64,6 +65,39 @@ export default function Page() {
               profile={projectInfo3.leaderProfile}
             />
           </Box>
+
+          <Divider my={40} />
+          <Box my={40} className={classes.headingWrapper}>
+            <Text className={classes.headingText}>About</Text>
+          </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo3.about}
+          </Text>
+
+          <Image src="/quinoa1.jpeg" alt="quinoa" radius="lg" my={20} />
+
+          <Divider my={40} />
+          <Box my={40} className={classes.headingWrapper}>
+            <Text className={classes.headingText}>Sustainability</Text>
+          </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo3.sustainability}
+          </Text>
+
+          <Image src="/quinoa2.jpeg" alt="quinoa" radius="lg" my={20} />
+
+          <Divider my={40} />
+          <Box my={40} className={classes.headingWrapper}>
+            <Text className={classes.headingText}>Potential</Text>
+          </Box>
+
+          <Text c="dimmed" mt="md" ml={10}>
+            {projectInfo3.potential}
+          </Text>
+
+          <Image src="/quinoa3.jpeg" alt="quinoa" radius="lg" my={20} />
         </div>
       </div>
     </Container>

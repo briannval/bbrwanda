@@ -48,9 +48,9 @@ const history = [
   },
   {
     year: 2019,
-    title: "Joining Hands",
+    title: "Collaboration",
     description:
-      "BBR joined hands with Hogan's Alley Society, SFU Institute for Disapora Research and Engagement.",
+      "BBR collaborates with Hogan's Alley Society, SFU Institute for Disapora Research and Engagement.",
     icon: <IconLink />,
   },
 ];

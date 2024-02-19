@@ -1,5 +1,6 @@
 "use client";
 import {
+  Image,
   Box,
   Container,
   Title,
@@ -11,7 +12,6 @@ import {
 import classes from "./page.module.css";
 import { IconArrowLeft } from "@tabler/icons-react";
 import { Leader } from "../../../components/proj/spec/Leader";
-import { projectInfo1 } from "../info/projectsInfo";
 import { projectInfo2 } from "../info/projectsInfo";
 
 export default function Page() {
@@ -76,6 +76,8 @@ export default function Page() {
             {projectInfo2.history}
           </Text>
 
+          <Image src="/covaga1.jpeg" alt="covaga" radius="lg" my={20} />
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Construction</Text>
@@ -85,6 +87,8 @@ export default function Page() {
             {projectInfo2.construction}
           </Text>
 
+          <Image src="/covaga2.jpeg" alt="covaga" radius="lg" my={20} />
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Future</Text>
@@ -93,6 +97,8 @@ export default function Page() {
           <Text c="dimmed" mt="md" ml={10}>
             {projectInfo2.future}
           </Text>
+
+          <Image src="/covaga3.jpeg" alt="covaga" radius="lg" my={20} />
         </div>
       </div>
     </Container>

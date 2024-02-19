@@ -1,5 +1,6 @@
 "use client";
 import {
+  Image,
   Box,
   Container,
   Title,
@@ -75,6 +76,8 @@ export default function Page() {
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Objectives</Text>
             <Objectives {...projectInfo1.objectives} />
+
+            <Image src="/sd1.jpeg" alt="sd" radius="lg" my={20} />
           </Box>
 
           <Divider my={40} />
@@ -86,6 +89,8 @@ export default function Page() {
             {projectInfo1.overview}
           </Text>
 
+          <Image src="/sd2.jpeg" alt="sd" radius="lg" my={20} />
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Goal</Text>
@@ -94,6 +99,8 @@ export default function Page() {
           <Text c="dimmed" mt="md" ml={10}>
             {projectInfo1.goal}
           </Text>
+
+          <Image src="/sd3.jpeg" alt="sd" radius="lg" my={20} />
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -104,6 +111,8 @@ export default function Page() {
             {projectInfo1.purpose}
           </Text>
 
+          <Image src="/sd4.jpeg" alt="sd" radius="lg" my={20} />
+
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Target Audience</Text>
@@ -112,6 +121,8 @@ export default function Page() {
           <Text c="dimmed" mt="md" ml={10}>
             {projectInfo1.targetAudience}
           </Text>
+
+          <Image src="/sd5.jpeg" alt="sd" radius="lg" my={20} />
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -123,6 +134,8 @@ export default function Page() {
           <Text c="dimmed" mt="md" ml={10}>
             {projectInfo1.initiativeProject}
           </Text>
+
+          <Image src="/sd6.jpeg" alt="sd" radius="lg" my={20} />
         </div>
       </div>
     </Container>

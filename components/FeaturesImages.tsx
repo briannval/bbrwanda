@@ -71,17 +71,10 @@ export function FeaturesImages() {
 
   return (
     <Container size={700} className={classes.wrapper}>
-      <Title className={classes.title} order={2}>
-        We will leave no one behind.
-      </Title>
-
       <Container size={660} p={0}>
         <Text c="dimmed" className={classes.description}>
-          BBR is devoted to advancing Rwanda&#39;s sustainable development
-          objectives through collaborative partnerships with our international
-          allies in development. Together, we aspire to build upon Rwanda&#39;s
-          remarkable achievements over the past thirty years and propel its
-          transformation into a high-income economy by 2050 and beyond.
+          Nurturing transformation, fostering empowerment, and promoting the
+          well-being of communities in Rwanda.
         </Text>
       </Container>
 

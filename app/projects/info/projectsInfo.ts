@@ -6,8 +6,9 @@ export interface ObjectiveProps {
 export const projectInfo5 = {
   titleHighlight: "Revitalization",
   titleRight: "of the Covaga Innovation Center",
-  description: "",
-  leaderProfile: "/steven.jpeg",
+  description:
+    "The Covaga Innovation Centre is at the heart of BBR's enduring dedication to bolstering the cooperative of weavers in Gashora. Our vision involves revitalizing the Covaga Innovation Centre by completing the construction of the two remaining buildings. One of these edifices will be designated as a weaving studio, providing an essential space for the weavers. Simultaneously, the second building is planned to serve as a kitchen where nutritionists can instruct participants on preparing nutritious quinoa-based meals. The adjacent courtyard will offer a welcoming environment for patrons to relish their meals, engage in social interactions, and potentially attend entertaining events.",
+  leaderProfile: "/team/steven.jpeg",
   leaderName: "Steven Kega",
   leaderEmail: "stevenkega@gmail.com",
 };
@@ -16,8 +17,9 @@ export const projectInfo4 = {
   titleLeft: "Support To",
   titleHighlight: "Gira Ubumuntu",
   titleRight: "Project",
-  description: "",
-  leaderProfile: "/jeanne.jpeg",
+  description:
+    "As a nation emerging from the aftermath of genocide, individuals continue to grapple with the lasting consequences, including mental health challenges and widespread poverty. These factors pose significant obstacles to self-sustainability and national development. The founder of GIRA UBUMUNTU, a survivor of the genocide, committed himself to understanding the root causes of the high number of street children by establishing connections with them and their families.",
+  leaderProfile: "/team/jeanne.jpeg",
   leaderName: "Jeanne Ingabire",
   leaderEmail: "jeanneingabire107@gmail.com",
 };
@@ -27,7 +29,7 @@ export const projectInfo3 = {
   titleRight: "Demonstration Garden",
   description:
     "Malnutrition and hunger remain pressing challenges in Gashora, Bugesera, Rwanda, affecting the health and well-being of the local population. To address this issue, we are developing the establishment of a Quinoa Demonstration Garden in collaboration with QuinoaHub Ltd., COVAGA, local community organizations, and the Gashora Sector.",
-  leaderProfile: "/cedric.jpeg",
+  leaderProfile: "/team/cedric.jpeg",
   leaderName: "Cedric Habiyaremye",
   leaderEmail: "h.cedric3@gmail.com",
   about:
@@ -44,7 +46,7 @@ export const projectInfo2 = {
   titleRight: "Woman's Weaving Cooperative",
   description:
     "Gashora Weavers Cooperative, known as COVAGA (short for Cooperative de Vannerie de Gashora in French), is a collective of 61 members, comprising of women and children, dedicated to weaving traditional baskets using natural fibres. Their products are being sold to both tourists and local customers.",
-  leaderProfile: "/steven.jpeg",
+  leaderProfile: "/team/steven.jpeg",
   leaderName: "Steven Kega",
   leaderEmail: "stevenkega@gmail.com",
   history:
@@ -61,7 +63,7 @@ export const projectInfo1 = {
   titleRight: "Sustainable Development Reflection Tour",
   description:
     "Building Bridges for Rwanda (BBR) is planning to embark on a unique, collaborative, and transnational Sustainable Development Reflection Tour in Rwanda in order to showcase and highlight 4 innovative and transformational projects that will lead to greatly improving the lives, environment, and communities in rural Rwanda.",
-  leaderProfile: "/lama.jpeg",
+  leaderProfile: "/team/lama.jpeg",
   leaderName: "Lama Mugabo",
   leaderEmail: "lmugabo75@gmail.com",
   objectives: {

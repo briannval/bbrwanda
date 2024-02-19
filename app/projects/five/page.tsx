@@ -7,6 +7,7 @@ import {
   Group,
   Text,
   Divider,
+  Image,
 } from "@mantine/core";
 import classes from "./page.module.css";
 import { IconArrowLeft } from "@tabler/icons-react";
@@ -63,6 +64,15 @@ export default function Page() {
               email={projectInfo5.leaderEmail}
               profile={projectInfo5.leaderProfile}
             />
+          </Box>
+
+          <Divider my={40} />
+          <Box my={40} className={classes.headingWrapper}>
+            <Text className={classes.headingText}>Images</Text>
+            <Image src="/cic2.jpg" alt="cic" radius="lg" my={20} />
+            <Image src="/cic1.jpeg" alt="cic" radius="lg" my={20} />
+            <Image src="/cic3.jpg" alt="cic" radius="lg" my={20} />
+            <Image src="/cic4.jpeg" alt="cic" radius="lg" my={20} />
           </Box>
         </div>
       </div>

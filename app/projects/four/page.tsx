@@ -1,5 +1,6 @@
 "use client";
 import {
+  Image,
   Box,
   Container,
   Title,
@@ -63,6 +64,23 @@ export default function Page() {
               name={projectInfo4.leaderName}
               email={projectInfo4.leaderEmail}
               profile={projectInfo4.leaderProfile}
+            />
+          </Box>
+
+          <Divider my={40} />
+          <Box my={40} className={classes.headingWrapper}>
+            <Text className={classes.headingText}>Images</Text>
+            <Image
+              src="/giraubumuntu1.jpeg"
+              alt="Gira Ubumuntu"
+              radius="lg"
+              my={20}
+            />
+            <Image
+              src="/giraubumuntu2.jpeg"
+              alt="Gira Ubumuntu"
+              radius="lg"
+              my={20}
             />
           </Box>
         </div>
