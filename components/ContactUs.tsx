@@ -54,7 +54,7 @@ export function ContactUs() {
         <div className={classes.form}>
           <TextInput
             label="Email"
-            placeholder="lmugabo75@email.com"
+            placeholder="lmugabo75@gmail.com"
             required
             classNames={{ input: classes.input, label: classes.inputLabel }}
           />
