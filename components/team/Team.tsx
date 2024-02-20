@@ -1,4 +1,4 @@
-import { Container, Title, Text, Box, Button, SimpleGrid } from "@mantine/core";
+import { Container, Title, Text } from "@mantine/core";
 import classes from "./Team.module.css";
 
 export interface TeamHeaderInterface {

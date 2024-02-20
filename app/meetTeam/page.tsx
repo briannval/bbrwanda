@@ -72,7 +72,7 @@ export default function Page() {
           </div>
         </Container>
       </div>
-      <Team location="Canada" description="The board members of BBRwanda" />
+      <Team location="Canada" description=" " />
       {canadaTeamMembers.map((props) => {
         return (
           <Box key={props.name} my={40}>
@@ -80,7 +80,7 @@ export default function Page() {
           </Box>
         );
       })}
-      <Team location="Rwanda" description="The great individuals of BBRwanda" />
+      <Team location="Rwanda" description=" " />
       {rwandaTeamMembers.map((props) => {
         return (
           <Box key={props.name} my={40}>
@@ -89,10 +89,7 @@ export default function Page() {
         );
       })}
 
-      <Team
-        location="Fundraising"
-        description="The great individuals of BBRwanda"
-      />
+      <Team location="Fundraising" description=" " />
       {fundaraisingTeamMembers.map((props) => {
         return (
           <Box key={props.name} my={40}>

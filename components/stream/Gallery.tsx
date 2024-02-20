@@ -1,18 +1,6 @@
-import {
-  Image,
-  Title,
-  Text,
-  Container,
-  Grid,
-  SimpleGrid,
-  Skeleton,
-  rem,
-  Box,
-} from "@mantine/core";
+import { Title, Text, Container, Box } from "@mantine/core";
 
 import classes from "./Gallery.module.css";
-
-const PRIMARY_COL_HEIGHT = rem(400);
 
 export function Gallery() {
   return (
@@ -23,7 +11,8 @@ export function Gallery() {
         </Title>
 
         <Text c="dimmed" className={classes.description} ta="center" mt="md">
-          Capturing BBRwanda&apos;s warm spirit in smiles and laughter
+          Working side by side to build the community <br></br>
+          This is our work in Rwanda and Canada
         </Text>
       </Box>
       <Container mt={20}></Container>
