@@ -40,15 +40,15 @@ const history = [
     icon: <IconAffiliate />,
   },
   {
-    year: 2016,
-    title: "Canada",
+    year: 2015,
+    title: "Sponsorship",
     description:
       "Upon returning to Canada, Lama continued the work, bringing visitors from Canada to Rwanda. Two proteges, Cedric (VP) and Steven (Treasurer), both educated in Canada and the US, served on the BBR board.",
     icon: <IconPlane />,
   },
   {
     year: 2019,
-    title: "Collaboration",
+    title: "RR25 Legacy Project",
     description:
       "BBR collaborates with Hogan's Alley Society, SFU Institute for Disapora Research and Engagement.",
     icon: <IconLink />,

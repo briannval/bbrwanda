@@ -43,7 +43,7 @@ export const projectInfo3 = {
 export const projectInfo2 = {
   titleLeft: "Support To",
   titleHighlight: "COVAGA",
-  titleRight: "Woman's Weaving Cooperative",
+  titleRight: "Weavers Cooperative of Gashora",
   description:
     "Gashora Weavers Cooperative, known as COVAGA (short for Cooperative de Vannerie de Gashora in French), is a collective of 61 members, comprising of women and children, dedicated to weaving traditional baskets using natural fibres. Their products are being sold to both tourists and local customers.",
   leaderProfile: "/team/steven.jpeg",
@@ -67,11 +67,11 @@ export const projectInfo1 = {
   leaderName: "Lama Mugabo",
   leaderEmail: "lmugabo75@gmail.com",
   objectives: {
-    objectiveTitles: ["Lead", "Provide", "Host"],
+    objectiveTitles: ["Provide", "Lead", "Host"],
     objectiveDescriptions: [
-      "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity.",
-      "Slakoth’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless.",
-      "Thought to have gone extinct, Relicanth was given a name that is a variation of the name of the person who discovered.",
+      "Provide Canadians with the first-hand experience of witnessing the success stories of sustainable development projects in Rwanda.",
+      "Lead a Sustainable Development reflection tour to visit the four community projects in Rwanda and to stimulate Canadian and Rwandan partnerships and investments for these projects.",
+      "Host a 2025 bi-annual conference at Simon Fraser University, to share and illuminate the success stories of Rwanda as a model country of sustainable development.",
     ],
   },
   overview:
@@ -80,7 +80,7 @@ export const projectInfo1 = {
   purpose:
     "Africa's image has been unfairly tarnished, often portrayed as a continent needing constant external assistance through a colonized lens. BBR is shedding light upon this image by initiating a campaign to showcase pan-African transformation with a focus on Rwanda to challenge this misconception. We intend to greatly shift this narrative by promoting excellent experiential learning through the reflection tour and how Canadians can take back lessons learned from African countries, such as Rwanda.",
   targetAudience:
-    "Our project appeals to Africans in the diaspora, progressive organizations and institutions dedicated to social, environmental, and economic justice, and diverse individuals focusing on college/university students, researchers and policymakers in the field of international development. Our audience will benefit from receiving evidence-based, engaging, and informative content that will assist and support them in better understanding the realities of sustainable development in Rwanda.",
+    "Our project appeals to diverse audiences; it includes Africans in the diaspora, progressive organizations and institutions dedicated to social, environmental, and economic justice, and various individuals focusing on college/university students, researchers, and policymakers in the field of international development. Our audience will benefit from receiving evidence-based, engaging, and informative content that will assist and support them in better understanding the realities of sustainable development in Rwanda.",
   initiativeProject:
     "The reflection tour will take the participants through Rwanda's established successful development hotspots where they will have the opportunity to meet Rwandan change-makers who have significantly contributed to the nation's progress in a myriad of ways. Participants will visit key established development projects shaping Rwanda's future such as exploring the Museum of Homegrown Solutions to understand how tradition and innovation are key drivers of sustainable development in Rwanda.The reflection tour will take the participants through Rwanda's established successful development hotspots where they will have the opportunity to meet Rwandan change-makers who have significantly contributed to the nation's progress in a myriad of ways. Participants will visit key established development projects shaping Rwanda's future such as exploring the Museum of Homegrown Solutions to understand how tradition and innovation are key drivers of sustainable development in Rwanda. The reflection tour will take the participants through Rwanda's established successful development hotspots where they will have the opportunity to meet Rwandan change-makers who have significantly contributed to the nation's progress in a myriad of ways. Participants will visit key established development projects shaping Rwanda's future such as exploring the Museum of Homegrown Solutions to understand how tradition and innovation are key drivers of sustainable development in Rwanda.",
 };

@@ -7,7 +7,7 @@
       rgba(220, 201, 30, 0) 30%,
       rgba(0, 0, 0, 0.4) 65%
     ),
-    url("/about.jpg");
+    url("/main.jpeg");
   padding-top: 10vh;
   height: 100vh;
 }

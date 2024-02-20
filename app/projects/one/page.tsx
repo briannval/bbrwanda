@@ -77,7 +77,14 @@ export default function Page() {
             <Text className={classes.headingText}>Objectives</Text>
             <Objectives {...projectInfo1.objectives} />
 
-            <Image src="/sd1.jpeg" alt="sd" radius="lg" my={20} />
+            <Box className={classes.imagebox}>
+              <Image src="/sd1.jpeg" alt="sd" radius="lg" />
+
+              <Text className={classes.caption}>
+                From left to right: June, Sheriff, Jean-Claude, Lama. We are in
+                the Nyungwe National Forest
+              </Text>
+            </Box>
           </Box>
 
           <Divider my={40} />
@@ -89,7 +96,13 @@ export default function Page() {
             {projectInfo1.overview}
           </Text>
 
-          <Image src="/sd2.jpeg" alt="sd" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/sd2.jpeg" alt="sd" radius="lg" />
+
+            <Text className={classes.caption}>
+              Misty morning over the land of a thousand hills
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -100,7 +113,14 @@ export default function Page() {
             {projectInfo1.goal}
           </Text>
 
-          <Image src="/sd3.jpeg" alt="sd" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/sd3.jpeg" alt="sd" radius="lg" />
+
+            <Text className={classes.caption}>
+              Royal Palace demonstration of how to prepare millet wine for the
+              King
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -111,7 +131,13 @@ export default function Page() {
             {projectInfo1.purpose}
           </Text>
 
-          <Image src="/sd4.jpeg" alt="sd" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/sd4.jpeg" alt="sd" radius="lg" />
+
+            <Text className={classes.caption}>
+              June Francis shopping in a souvenir shop
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -122,7 +148,13 @@ export default function Page() {
             {projectInfo1.targetAudience}
           </Text>
 
-          <Image src="/sd5.jpeg" alt="sd" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/sd5.jpeg" alt="sd" radius="lg" />
+
+            <Text className={classes.caption}>
+              Kigali Business and Financial District
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -135,7 +167,14 @@ export default function Page() {
             {projectInfo1.initiativeProject}
           </Text>
 
-          <Image src="/sd6.jpeg" alt="sd" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/sd6.jpeg" alt="sd" radius="lg" />
+
+            <Text className={classes.caption}>
+              Prof. June Francis, Prof. Stephen Rulisa, and BBR Chair Lama
+              Mugabo
+            </Text>
+          </Box>
         </div>
       </div>
     </Container>
