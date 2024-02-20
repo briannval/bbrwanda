@@ -70,18 +70,28 @@ export default function Page() {
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Images</Text>
-            <Image
-              src="/giraubumuntu1.jpeg"
-              alt="Gira Ubumuntu"
-              radius="lg"
-              my={20}
-            />
-            <Image
-              src="/giraubumuntu2.jpeg"
-              alt="Gira Ubumuntu"
-              radius="lg"
-              my={20}
-            />
+            <Box className={classes.imagebox}>
+              <Image
+                src="/giraubumuntu1.jpeg"
+                alt="Gira Ubumuntu"
+                radius="lg"
+              />
+
+              <Text className={classes.caption}>
+                Maurice with four beneficiaries of Gira Ubumuntu
+              </Text>
+            </Box>
+            <Box className={classes.imagebox}>
+              <Image
+                src="/giraubumuntu2.jpeg"
+                alt="Gira Ubumuntu"
+                radius="lg"
+              />
+
+              <Text className={classes.caption}>
+                Having fun horse-back riding
+              </Text>
+            </Box>
           </Box>
         </div>
       </div>

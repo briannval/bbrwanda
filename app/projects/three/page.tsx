@@ -75,7 +75,13 @@ export default function Page() {
             {projectInfo3.about}
           </Text>
 
-          <Image src="/quinoa1.jpeg" alt="quinoa" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/quinoa1.jpeg" alt="quinoa" radius="lg" />
+
+            <Text className={classes.caption}>
+              Closely monitoring quinoa plants
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -86,7 +92,14 @@ export default function Page() {
             {projectInfo3.sustainability}
           </Text>
 
-          <Image src="/quinoa2.jpeg" alt="quinoa" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/quinoa2.jpeg" alt="quinoa" radius="lg" />
+
+            <Text className={classes.caption}>
+              Cedric is working with his mother in a Quinoa farm, Rukira,
+              Eastern Province
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -97,7 +110,13 @@ export default function Page() {
             {projectInfo3.potential}
           </Text>
 
-          <Image src="/quinoa3.jpeg" alt="quinoa" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/quinoa3.jpeg" alt="quinoa" radius="lg" />
+
+            <Text className={classes.caption}>
+              Quinoa Hub employees monitoring progress in the farm
+            </Text>
+          </Box>
         </div>
       </div>
     </Container>

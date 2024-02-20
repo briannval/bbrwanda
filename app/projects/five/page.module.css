@@ -58,3 +58,19 @@
   padding: rem(4px) rem(12px);
   border-radius: 10px;
 }
+
+.imagebox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: 10px;
+  font-weight: 550;
+}

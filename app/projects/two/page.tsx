@@ -76,7 +76,13 @@ export default function Page() {
             {projectInfo2.history}
           </Text>
 
-          <Image src="/covaga1.jpeg" alt="covaga" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/covaga1.jpeg" alt="covaga" radius="lg" />
+
+            <Text className={classes.caption}>
+              Steven and Covaga weavers visiting the Covaga Innovation Center
+            </Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -87,7 +93,11 @@ export default function Page() {
             {projectInfo2.construction}
           </Text>
 
-          <Image src="/covaga2.jpeg" alt="covaga" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/covaga2.jpeg" alt="covaga" radius="lg" />
+
+            <Text className={classes.caption}>Anastazia, Covaga weaver</Text>
+          </Box>
 
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
@@ -98,7 +108,14 @@ export default function Page() {
             {projectInfo2.future}
           </Text>
 
-          <Image src="/covaga3.jpeg" alt="covaga" radius="lg" my={20} />
+          <Box className={classes.imagebox}>
+            <Image src="/covaga3.jpeg" alt="covaga" radius="lg" />
+
+            <Text className={classes.caption}>
+              Beginning of a Bike-Taxi excursion from the CIC to Gashora Girls
+              Academy. Excitement!
+            </Text>
+          </Box>
         </div>
       </div>
     </Container>

@@ -69,10 +69,22 @@ export default function Page() {
           <Divider my={40} />
           <Box my={40} className={classes.headingWrapper}>
             <Text className={classes.headingText}>Images</Text>
-            <Image src="/cic2.jpg" alt="cic" radius="lg" my={20} />
-            <Image src="/cic1.jpeg" alt="cic" radius="lg" my={20} />
-            <Image src="/cic3.jpg" alt="cic" radius="lg" my={20} />
-            <Image src="/cic4.jpeg" alt="cic" radius="lg" my={20} />
+            <Box className={classes.imagebox}>
+              <Image src="/cic2.jpg" alt="cic" radius="lg" />
+
+              <Text className={classes.caption}>
+                The Covaga Innovation Centre, build by international volunteers
+                working side-by-side with Rwandans as a gift
+              </Text>
+            </Box>
+            <Box className={classes.imagebox}>
+              <Image src="/cic1.jpeg" alt="cic" radius="lg" />
+
+              <Text className={classes.caption}>
+                Lama Mugabo. Nick has been a major supporter of BBR mission in
+                Gashora
+              </Text>
+            </Box>
           </Box>
         </div>
       </div>
