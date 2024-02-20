@@ -49,7 +49,11 @@ export function ContactUs() {
             Have a question? Let us know!
           </Text>
 
-          <Group mt="xl">{icons}</Group>
+          <Group my="xs">{icons}</Group>
+          <Text className={classes.credit}>
+            Website developed by Brian Adhitya <br></br>
+            brianvalentinoadhitya@gmail.com <br></br>
+          </Text>
         </div>
         <div className={classes.form}>
           <TextInput
