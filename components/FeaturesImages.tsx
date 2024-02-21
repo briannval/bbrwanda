@@ -72,7 +72,7 @@ export function FeaturesImages() {
   return (
     <Container size={700} className={classes.wrapper}>
       <Container size={660} p={0}>
-        <Text c="dimmed" className={classes.description}>
+        <Text className={classes.description}>
           Nurturing transformation, fostering empowerment, and promoting the
           well-being of communities in Rwanda.
         </Text>

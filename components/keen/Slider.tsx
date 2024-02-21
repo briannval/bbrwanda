@@ -7,7 +7,7 @@ import classes from "./Slider.module.css";
 import Image from "next/image";
 
 export default function Slider() {
-  const [ref] = useKeenSlider<HTMLDivElement>();
+  const [ref] = useKeenSlider<HTMLDivElement>({ loop: true });
   const links = ["/carousel4.jpeg", "/carousel5.jpeg"];
   return (
     <>

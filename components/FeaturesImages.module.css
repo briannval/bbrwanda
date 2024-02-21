@@ -33,8 +33,9 @@
 }
 
 .description {
+  font-style: italic;
+  font-size: large;
   text-align: center;
-  margin-top: var(--mantine-spacing-xs);
 }
 
 .highlight {
