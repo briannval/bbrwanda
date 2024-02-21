@@ -27,7 +27,7 @@ const Gallery = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       slid?.current?.next();
-    }, 1000);
+    }, 7000);
 
     return () => {
       clearInterval(interval);
