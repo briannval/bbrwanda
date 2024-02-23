@@ -12,6 +12,12 @@
   font-weight: bold;
 }
 
+.headerTitle {
+  font-family: "Greycliff CF", var(--mantine-font-family);
+  font-weight: 900;
+  font-size: rem(50px);
+}
+
 .description {
   max-width: rem(800px);
   margin: auto;

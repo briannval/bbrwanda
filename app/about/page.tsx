@@ -75,9 +75,10 @@ export default function Page() {
         <History />
       </Box>
       <Box className={classes.imagebox}>
-        <Image src="/carousel1.jpeg" alt="About Us" width={800} height={600} />
+        <Image src="/sd6.jpeg" alt="About Us" width={800} height={600} />
         <Text className={classes.caption}>
-          Lama Mugabo, BBR Chair and Peter Uwiragiye, Safari Tours Operator
+          Professor June Francis, Professor Stephen Rulisa, and BBR Chair Lama
+          Mugabo
         </Text>
       </Box>
       <ContactUs />

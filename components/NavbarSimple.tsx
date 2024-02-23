@@ -8,6 +8,7 @@ import {
   IconCamera,
 } from "@tabler/icons-react";
 import classes from "./NavbarSimple.module.css";
+import { IconMicrophone } from "@tabler/icons-react";
 
 const data = [
   { link: "/", label: "Home", icon: IconUser },
@@ -16,6 +17,11 @@ const data = [
   { link: "/projects", label: "Projects", icon: IconHeartHandshake },
   { link: "/meetTeam", label: "Meet the Team", icon: IconUser },
   { link: "/gallery", label: "Gallery", icon: IconCamera },
+  {
+    link: "https://www.lamamugabo.com/",
+    label: "Baraza Collective",
+    icon: IconMicrophone,
+  },
 ];
 
 export function NavbarSimple() {

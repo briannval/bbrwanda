@@ -30,18 +30,14 @@ export function ProjectOne() {
     <>
       <Box>
         <Title order={2} className={classes.headerTitle} ta="center" mt="xl">
-          Our five <span className={classes.headerCatch}>priority </span>
-          projects
+          Our Five Priority Projects
         </Title>
         <Text
           c="dimmed"
           className={classes.headerDescription}
           ta="center"
           mt="md"
-        >
-          Nurturing transformation, fostering empowerment, and promoting the
-          well-being of communities in Rwanda
-        </Text>
+        ></Text>
 
         {/* Sustainable Development Tour -> Project ONE */}
         <Card radius="md" className={`${classes.card} ${classes.cardThree}`}>

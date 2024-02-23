@@ -70,7 +70,7 @@ export function VissionMission() {
   return (
     <Container size="lg" py="2xl" my={50}>
       <Title order={2} className={classes.title} ta="center" mt="sm">
-        Our <span className={classes.catch}>Statement</span>
+        Our Statement
       </Title>
 
       <Text

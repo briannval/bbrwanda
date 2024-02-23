@@ -1,14 +1,14 @@
 import { Box, Title, Timeline, Text } from "@mantine/core";
 import {
-  IconAnchor,
-  IconGitBranch,
+  IconBulb,
+  IconAffiliate,
   IconHeartHandshake,
-  IconPigMoney,
-  IconPlane,
+  IconUsers,
+  IconCoin,
+  IconBuildingMonument,
 } from "@tabler/icons-react";
 import classes from "./Timeline.module.css";
-import { IconAffiliate } from "@tabler/icons-react";
-import { IconLink } from "@tabler/icons-react";
+import { IconCameraPin } from "@tabler/icons-react";
 
 const history = [
   {
@@ -16,14 +16,14 @@ const history = [
     title: "Founding",
     description:
       "BBR was established by Lama Mugabo to support the reconstruction of Rwanda following the 1994 genocide against the Tutsis",
-    icon: <IconAnchor />,
+    icon: <IconBulb />,
   },
   {
     year: 2006,
     title: "Fundraising",
     description:
       "A fundraiser was organized, raising seven thousand dollars to support Covaga, a weaver's cooperative turning environmental challenges into social and economic opportunities",
-    icon: <IconPigMoney />,
+    icon: <IconCoin />,
   },
   {
     year: 2008,
@@ -44,14 +44,21 @@ const history = [
     title: "Sponsorship",
     description:
       "Upon returning to Canada, Lama continued the work, bringing visitors from Canada to Rwanda. Two proteges, Cedric (VP) and Steven (Treasurer), both educated in Canada and the US, served on the BBR board.",
-    icon: <IconPlane />,
+    icon: <IconUsers />,
   },
   {
     year: 2019,
     title: "RR25 Legacy Project",
     description:
       "BBR collaborates with Hogan's Alley Society, SFU Institute for Disapora Research and Engagement.",
-    icon: <IconLink />,
+    icon: <IconBuildingMonument />,
+  },
+  {
+    year: 2022,
+    title: "Reflection Tour",
+    description:
+      "BBR took people from Vancouver to Rwanda to participate in CHOGM (Commonwealth Heads of Government Meeting) and visit projects that have transformed Rwanda.",
+    icon: <IconCameraPin />,
   },
 ];
 
@@ -60,7 +67,7 @@ export function History() {
     <>
       <Box className={classes.historybox}>
         <Title order={2} className={classes.title} ta="center" mt="sm">
-          Our <span className={classes.catch}>history</span>
+          Our History
         </Title>
 
         <Text

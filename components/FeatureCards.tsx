@@ -4,7 +4,6 @@ import {
   Card,
   SimpleGrid,
   Container,
-  useMantineTheme,
   AspectRatio,
   Image,
 } from "@mantine/core";
@@ -40,7 +39,6 @@ const mockdata = [
 ];
 
 export function FeaturesCards() {
-  const theme = useMantineTheme();
   const cards = mockdata.map((article) => (
     <Card
       key={article.title}
@@ -63,14 +61,16 @@ export function FeaturesCards() {
   ));
   return (
     <Container size="lg" py="2xl" my={50}>
-      <Title order={2} className={classes.title} ta="center" mt="sm">
-        <span className={classes.catch}>Priority </span>Projects
+      <Title order={2} className={classes.headerTitle} ta="center" mt="sm">
+        Priority Projects
       </Title>
 
-      <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        Nurturing transformation, fostering empowerment, and promoting the
-        well-being of communities in Rwanda
-      </Text>
+      <Text
+        c="dimmed"
+        className={classes.description}
+        ta="center"
+        mt="md"
+      ></Text>
       <Container py="xl">
         <SimpleGrid cols={{ base: 1, sm: 2 }}>{cards}</SimpleGrid>
       </Container>

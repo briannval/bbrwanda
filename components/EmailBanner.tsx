@@ -6,11 +6,14 @@ export function EmailBanner() {
   return (
     <>
       <Title order={2} className={classes.headingTitle} ta="center" mt="sm">
-        <span className={classes.headingCatch}>Upcoming </span>News
+        Upcoming News
       </Title>
-      <Text c="dimmed" className={classes.description} ta="center" mt="md">
-        BBR&apos;s next plans and future events
-      </Text>
+      <Text
+        c="dimmed"
+        className={classes.description}
+        ta="center"
+        mt="md"
+      ></Text>
       <Box className={classes.outerWrapper}>
         <div className={classes.wrapper}>
           <div className={classes.body}>

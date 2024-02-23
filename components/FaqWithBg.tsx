@@ -9,6 +9,7 @@ import {
   Image,
 } from "@mantine/core";
 import classes from "./FaqWithBg.module.css";
+import Link from "next/link";
 
 export function FaqWithBg() {
   return (
@@ -56,7 +57,9 @@ export function FaqWithBg() {
                 to a model state today.
                 <br></br>
                 Find out more about the tour{" "}
-                <span className={classes.learnmorebutton}>here</span>
+                <Link href="/projects/one">
+                  <span className={classes.learnmorebutton}>here</span>
+                </Link>
               </Accordion.Panel>
             </Accordion.Item>
             <Accordion.Item className={classes.item} value="second">
