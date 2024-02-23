@@ -14,7 +14,7 @@
 
 .headerTitle {
   font-family: "Greycliff CF", var(--mantine-font-family);
-  font-weight: 900;
+  font-weight: bold;
   font-size: rem(50px);
 }
 
