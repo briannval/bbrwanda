@@ -49,7 +49,6 @@ export default function Page() {
                   Us
                 </Text>{" "}
               </Title>
-
               <Text className={classes.description} mt={30}>
                 A non-profit organization designed to foster Rwanda&apos;s
                 sustainable development initiatives through practical learning

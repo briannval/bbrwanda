@@ -20,8 +20,8 @@ const Gallery = () => {
     mode: "free-snap",
     renderMode: "performance",
   });
-  const imageUrls: string[] = [...Array(38)].map(
-    (_, idx) => `/gallery/gallery${idx + 1}.jpg`
+  const imageUrls: string[] = [...Array(36)].map(
+    (_, idx) => `/gallery/photo${idx + 1}.jpg`
   );
 
   useEffect(() => {
