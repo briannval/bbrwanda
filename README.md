@@ -1,14 +1,14 @@
-# Fundraising Website
+# Fundraising Website (BBRwanda)
 
-Tour website for fundraising and promotion
+Tour website for 2024 Sustainable Development Tour
 
-## Organization
+## BBR Links
 
 - [Facebook](https://www.facebook.com/BBRwanda/)
 - [Instagram](https://www.instagram.com/bbrwanda/)
 - [Twitter](https://twitter.com/BBRwanda)
 
-## Board Members
+## BBR Board Members
 
 - [Lama Mugabo](https://www.linkedin.com/in/lama-mugabo/)
 - [Cedric Habiyaremye](https://www.linkedin.com/in/cedric-habiyaremye-5a352529/)
