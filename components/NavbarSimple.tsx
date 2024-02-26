@@ -12,7 +12,11 @@ import { IconMicrophone } from "@tabler/icons-react";
 
 const data = [
   { link: "/", label: "Home", icon: IconUser },
-  { link: "/", label: "Donate", icon: IconReceipt2 },
+  {
+    link: "https://www.bbrwanda.org/donate",
+    label: "Donate",
+    icon: IconReceipt2,
+  },
   { link: "/about", label: "About", icon: IconQuestionMark },
   { link: "/projects", label: "Projects", icon: IconHeartHandshake },
   { link: "/meetTeam", label: "Meet the Team", icon: IconUser },

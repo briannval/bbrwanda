@@ -61,6 +61,9 @@ export default function Page() {
                 size="xl"
                 className={classes.control}
                 mt={40}
+                onClick={() => {
+                  window.location.href = "https://www.bbrwanda.org/donate";
+                }}
               >
                 Donate Now
               </Button>
