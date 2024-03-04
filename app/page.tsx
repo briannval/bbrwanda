@@ -92,7 +92,7 @@ export default function Page() {
                 className={classes.control}
                 mt={40}
                 onClick={() => {
-                  window.location.href = "https://www.bbrwanda.org/donate";
+                  window.location.href = "https://bbr.nationbuilder.com/";
                 }}
               >
                 Donate Now
