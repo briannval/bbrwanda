@@ -16,6 +16,11 @@ export function EmailBanner() {
       ></Text>
       <Box className={classes.outerWrapper}>
         <div className={classes.wrapper}>
+          <Image src={"/ubc_event.jpeg"} width={500} height={800} />
+        </div>
+      </Box>
+      <Box className={classes.outerWrapper}>
+        <div className={classes.wrapper}>
           <div className={classes.body}>
             <Badge
               size="15px"
