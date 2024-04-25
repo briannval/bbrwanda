@@ -22,12 +22,14 @@ export function Leader({ name, email, profile }: LeaderInterface) {
             {name}
           </Text>
 
+          {/*
           <Group wrap="nowrap" gap={10} mt={3}>
             <IconAt stroke={1.5} size="1rem" className={classes.icon} />
             <Text fz="xs" c="dimmed">
               {email}
             </Text>
           </Group>
+          */}
         </div>
       </Group>
     </div>
