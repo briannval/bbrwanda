@@ -16,7 +16,12 @@ export function EmailBanner() {
       ></Text>
       <Box className={classes.outerWrapper}>
         <div className={classes.wrapper}>
-          <Image src={"/ubc_event.jpeg"} width={500} height={800} />
+          <Image
+            src={"/ubc_event.jpeg"}
+            alt="UBC Event Poster"
+            width={500}
+            height={800}
+          />
         </div>
       </Box>
       <Box className={classes.outerWrapper}>
