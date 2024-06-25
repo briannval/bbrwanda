@@ -17,14 +17,14 @@ const mockdata = [
   {
     title: "Vision",
     description: [
-      "To create, implement, and support programs that directly improve the health and well-being of Rwandan communities and to promote Rwanda's innovation and lessons learned as a community engagement tool in Canada.",
+      "A community that thrives through cross-cultural reconciliation.",
     ],
     icon: IconEye,
   },
   {
     title: "Mission",
     description: [
-      "To facilitate learning exchanges between international visitors and local change agents to foster sustainable development in Rwanda.",
+      "To foster the cross-cultural exchange of reconciliation knowledge to nurture healthier communities.",
     ],
     icon: IconTargetArrow,
   },

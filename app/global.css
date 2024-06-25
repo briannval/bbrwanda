@@ -1,0 +1,101 @@
+.imagebox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  margin-top: 70px;
+}
+
+.welcomeText {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+.root {
+  background-color: #11284b;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      250deg,
+      rgba(220, 201, 30, 0) 30%,
+      rgba(0, 0, 0, 0.4) 65%
+    ),
+    url("/about.jpg");
+  padding-top: 10vh;
+  height: 100vh;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    flex-direction: column;
+  }
+}
+
+.image {
+  @media (max-width: $mantine-breakpoint-md) {
+    display: none;
+  }
+}
+
+.content {
+  padding-top: calc(var(--mantine-spacing-xl) * 2);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 2);
+  margin-right: calc(var(--mantine-spacing-xl) * 3);
+}
+
+.title {
+  color: var(--mantine-color-white);
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+  line-height: 1.05;
+  max-width: rem(500px);
+  font-size: rem(70px);
+}
+
+.description {
+  color: var(--mantine-color-white);
+  font-size: rem(17px);
+  opacity: 0.9;
+  max-width: rem(400px);
+  font-weight: 700;
+}
+
+.control {
+  padding-left: rem(50px);
+  padding-right: rem(50px);
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-size: rem(22px);
+  border-radius: 10px;
+}
+
+.menuopener {
+  background-color: transparent;
+}
+
+.imagebox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  margin-top: 70px;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: 10px;
+  font-weight: 550;
+}
+
+.welcomeText {
+  font-size: 6vw;
+  font-weight: bold;
+}
+
+
