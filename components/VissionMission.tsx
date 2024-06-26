@@ -17,14 +17,14 @@ const mockdata = [
   {
     title: "Vision",
     description: [
-      "A community that thrives through cross-cultural reconciliation.",
+      "A vibrant and resilient community, flourishing through the power of cross-cultural reconciliation, mutual respect, and collaboration.",
     ],
     icon: IconEye,
   },
   {
     title: "Mission",
     description: [
-      "To foster the cross-cultural exchange of reconciliation knowledge to nurture healthier communities.",
+      "Empower communities by facilitating cross-cultural exchanges of reconciliation knowledge, fostering understanding, healing, and unity.",
     ],
     icon: IconTargetArrow,
   },
